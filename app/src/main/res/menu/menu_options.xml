@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/cmAbandon"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/cm_abandon"/>
+    <item
+        android:id="@+id/cmOpen"
+        android:orderInCategory="700"
+        android:showAsAction="never"
+        android:title="@string/cm_open"
+        android:visible="false"/>
+    <item
+        android:id="@+id/cmSave"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="800"
+        android:showAsAction="never"
+        android:title="@string/cm_save"
+        android:visible="false"/>
+    <item
+        android:id="@+id/cmHelp"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="2000"
+        android:showAsAction="never"
+        android:title="@string/cm_help"/>
+    <item
+        android:id="@+id/cmRate"
+        android:orderInCategory="2100"
+        android:showAsAction="never"
+        android:title="@string/cm_rate"/>
+
+</menu>

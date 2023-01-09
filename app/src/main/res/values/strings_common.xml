@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="common_current_version">1.5.1</string>
+    <string name="common_beta_testers">Iulian Duma, Alexander Kozlovskiy, Cornel Todericiu, Ioan Țichir</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9705662823127450/1685692708</string>
+    <string name="common_date_of_current_release_in_seconds">1624356000</string>
+    <string name="common_date_of_first_release_in_seconds">1537344000</string>
+    <string name="ellipsis">…</string>
+    <string name="in_construction">This is under construction…</string>
+
+</resources>

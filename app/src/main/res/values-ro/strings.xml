@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The next string must contain the current locale language in two letters, in latin alphabet: -->
+    <string name="cur_lang">ro</string>
+    <string name="app_name">JustGammon</string>
+    <string name="title_activity_game">JustGammon</string>
+    <string name="tv_premium_version">JustGammon Premium</string>
+    <string name="welcome_message">Bine ai venit!</string>
+    <string name="bt_start_game">Start</string>
+    <string name="bt_continue_game">Continuă</string>
+    <string name="bt_settings">Setări…</string>
+    <string name="bt_about">Despre…</string>
+    <string name="bt_help">Citește Ajutorul…</string>
+    <string name="bt_game_mode">Manager…</string>
+    <string name="bt_statistics">Statistici…</string>
+    <string name="bt_ok">OK</string>
+    <string name="bt_close">Închide</string>
+    <string name="bt_cancel">Anulează</string>
+    <string name="bt_save">Salvează</string>
+    <string name="bt_yes">Da</string>
+    <string name="bt_no">Nu</string>
+    <string name="bt_continue">Continuă</string>
+
+    <!-- Information dialog strings: -->
+    <string name="bt_information">Informații…</string>
+    <string name="info_title">Informații</string>
+    <string name="bt_close_information">Închide informațiile</string>
+    <string name="bt_news">Noutăți…</string>
+    <string name="news_title">Noutăți</string>
+    <string name="bt_close_news">Închide noutățile</string>
+    <string name="bt_changelog">Jurnal…</string>
+    <string name="changelog_title">Jurnal de modificări</string>
+    <string name="bt_close_changelog">Închide jurnalul</string>
+    <string name="bt_privacy">Citește Politica de confidențialitate…</string>
+    <string name="privacy_title">Politica de confidențialitate</string>
+    <string name="bt_close_privacy">Închide politica de confidențialitate</string>
+    <string name="bt_online_statistics">Statistici on-line…</string>
+    <string name="online_statistics_title">Statistici on-line</string>
+    <string name="bt_close_online_statistics">Închide statisticile on-line</string>
+    <string name="no_internet_for_webviews">Nu ești conectat la Internet.\nAceste informații sunt încărcate de pe site-ul nostru.\nTe rugăm să te conectezi la Internet și să încerci din nou…</string>
+
+    <!-- Help strings -->
+    <string name="help_alert_title">Ajutor și informații</string>
+    <string name="bt_close_help">Închide ajutorul</string>
+
+    <!-- Dice strings: -->
+    <string name="dice_status">%1$d, %2$d</string>
+    <string name="dice_blank">Zar nearuncat încă</string>
+    <string name="cd_die_face_available">%1$d, zar neutilizat</string>
+    <string name="cd_die_face_used">%1$d, zar utilizat</string>
+    <string name="cd_die_face_used_half">%1$d, zar utilizat pe jumătate</string>
+
+    <!-- A plurals resource to announce remaining moves to do for current dice: -->
+    <plurals name="cd_number_of_remaining_moves">
+        <item quantity="one">Mai este o mutare de efectuat.</item>
+        <item quantity="few">Mai sunt %d mutări de efectuat.</item>
+        <item quantity="other">Mai sunt %d de mutări de efectuat.</item>
+    </plurals>
+
+    <!-- Strings for date: -->
+    <string name="today">azi</string>
+    <string name="yesterday">ieri</string>
+    <string name="msg_time">Este ora %1$s</string>
+    <string name="date_format">%1$s, %2$s %3$s %4$s, %5$s:%6$s</string>
+
+    <!-- About dialog: -->
+    <string name="about">Despre</string>
+    <string name="about_title">Despre JustGammon</string>
+    <string name="app_version">JustGammon %1$s</string>
+    <string name="app_release_date">Data finalizării versiunii 1.0: %1$s</string>
+    <string name="app_last_update">Data finalizării versiunii de față: %1$s</string>
+    <string name="app_creator">Programat de Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Telefon: +40740203043</string>
+    <string name="email_address">E-mail: contact@justgammon.com</string>
+    <string name="web_address">Web: www.justgammon.com</string>
+    <string name="app_credits1">Design creat de Iulian Duma</string>
+    <string name="app_credits2">Testare Beta: %1$s</string>
+    <!-- Next string will be replaced with your language and your name, written in your language: -->
+    <string name="app_credits3">Traducere în română: Emanuel Boboiu</string>
+    <string name="mnu_rate">Evaluează jocul!</string>
+    <string name="title_rate_app">Evaluează acest joc</string>
+    <string name="body_rate_app">Dacă îți place acest joc, te rugăm să îl evaluezi în Magazinul Google Play.\nAcordându-ne cât mai multe steluțe, ne ajuți să creștem în Magazinul Google Play și ne încurajezi să lucrăm mai mult pentru a-ți face experiența și mai frumoasă.</string>
+    <string name="bt_rate">Evaluează acum!</string>
+    <string name="bt_not_now">Nu acum!</string>
+
+    <!-- Error and warning messages: -->
+    <string name="information">Informație</string>
+    <string name="error">Eroare</string>
+    <string name="warning">Avertisment</string>
+    <string name="no_connection_available">Am detectat că nu există o conexiune validă la Internet.\nTe rugăm să te conectezi la Internet și să încerci din nou.</string>
+
+    <!-- For content descriptions: -->
+    <string name="cd_bt_play">Start joc nou</string>
+    <string name="cd_bt_pause">Pune pe pauză acest joc</string>
+    <string name="cd_bt_resume">Reia acest joc</string>
+    <string name="cd_bt_statistics">Arată informații și statistici pentru jocul curent</string>
+    <string name="cd_bt_options">Mai multe opțiuni</string>
+    <string name="cd_position_status">%1$s %2$s.</string>
+    <string name="cd_empty">Gol</string>
+    <string name="cd_almost_taken">%1$s. O piesă de aici este în mână.</string>
+    <string name="cd_hint_can_put">%1$s. Se poate pune aici.</string>
+    <string name="cd_hint_can_enter">%1$s. Se poate intra aici.</string>
+
+    <!-- A plurals resource for white pieces: -->
+    <plurals name="cd_number_of_white_pulls">
+        <item quantity="one">Una albă</item>
+        <item quantity="few">%d albe</item>
+        <item quantity="other">%d de albe</item>
+    </plurals>
+    <!-- A plurals resource for black pieces: -->
+    <plurals name="cd_number_of_black_pulls">
+        <item quantity="one">Una neagră</item>
+        <item quantity="few">%d negre</item>
+        <item quantity="other">%d de negre</item>
+    </plurals>
+
+    <string-array name="colors_array">
+        <item>Gol</item>
+        <item>alb</item>
+        <item>negru</item>
+    </string-array>
+
+    <string name="cd_border">Bordură</string>
+    <string name="cd_border_status">%1$s %2$s.</string>
+    <!-- An array with names of the borders, 6 items: -->
+    <string-array name="borders_names_array">
+        <item>Bordură dreapta jos:</item>
+        <item>Bordură dreapta sus:</item>
+        <item>Bordură centru jos:</item>
+        <item>Bordură centru sus:</item>
+        <item>Bordură stânga jos</item>
+        <item>Bordură stânga sus</item>
+    </string-array>
+
+    <!-- Strings in settings management: -->
+    <string name="bt_reset_to_defaults">Resetare la valorile implicite…</string>
+    <string name="title_activity_settings">Setări</string>
+    <string name="close_settings">Închide setările</string>
+    <string name="title_default_settings">Setări implicite</string>
+    <string name="body_default_settings">Sigur vrei să resetezi jocul?\nToate valorile for fi readuse la cele inițiale, cele din momentul instalării jocului.\nDacă ai cumpărat versiunea Premium din Magazinul Google Play, aceasta va fi activată automat la următoarea lansare.\nPoți de asemenea introduce codul de activare pentru a promova manual jocul la versiunea premium, dacă deții un astfel de cod.</string>
+    <string name="sm_bt_general_settings">Generale…</string>
+    <string name="sm_bt_close_general_settings">Închide setările generale</string>
+    <string name="sm_heading_general_settings">Setări generale</string>
+    <string name="sm_enable_vibration">Activează vibrații pentru diverse acțiuni</string>
+    <string name="sm_enable_screen_awake">Menținere ecran activ în timpul jocului</string>
+    <string name="sm_enable_clock_cuckoo">Activează anunțarea automată a orei</string>
+    <string name="sm_enable_save_history">Activează salvarea automată a istoricului jocurilor</string>
+    <string name="sm_bt_sounds_settings">Sunet…</string>
+    <string name="sm_bt_close_sounds_settings">Închide setările de sunet</string>
+    <string name="sm_heading_sounds_settings">Setări de sunet</string>
+    <string name="sm_enable_sounds">Activează efecte sonore pentru diverse acțiuni</string>
+    <string name="sm_enable_music">Activează ambianța sonoră în timpul jocului</string>
+    <string name="sm_sound_volume">Alege procentajul din volumul media pentru volumul sunetelor:</string>
+    <string name="sm_enable_background_menu">Activează muzica de fundal în meniul principal</string>
+
+    <!-- Name of sound to be checked or unchecked: -->
+    <string name="sm_heading_sounds_choose">Bifează sunetele pe care le vrei în joc:</string>
+
+    <string-array name="sounds_array">
+        <item>Nimic</item>
+        <item>Aranjare treptată a tablei</item>
+        <item>Ceas cu cuc</item>
+        <item>Poziție curentă</item>
+        <item>Borduri</item>
+        <item>Nu se poate face nimic</item>
+        <item>Aruncare zaruri</item>
+        <item>Piesă luată</item>
+        <item>Piesă pusă</item>
+        <item>Poziție sau acțiune interzisă</item>
+        <item>Lovire piesă</item>
+        <item>Prima aruncare a zarurilor</item>
+        <item>Joc pus pe pauză</item>
+        <item>Joc reluat</item>
+        <item>Este rândul tău</item>
+        <item>Adversarul se gândește</item>
+        <item>Închidere tablă de joc</item>
+        <item>Clicuri în setări</item>
+        <item>Închidere ferestre de setări</item>
+        <item>Câștigare un punct</item>
+        <item>Câștigare marț</item>
+        <item>Câștigare Backgammon</item>
+        <item>Câștigare Backgammon dublu</item>
+        <item>Pierdere un punct</item>
+        <item>Pierdere marț</item>
+        <item>Pierdere Backgammon</item>
+        <item>Pierdere Backgammon dublu</item>
+        <item>Toate piesele au ajuns în casă</item>
+        <item>Aranjare instantă a tablei</item>
+    </string-array>
+
+    <string name="sm_bt_accessibility_settings">Accesibilitate…</string>
+    <string name="sm_bt_close_accessibility_settings">Închide setările de accesibilitate</string>
+    <string name="sm_heading_accessibility_settings">Setări de accesibilitate</string>
+    <string name="sm_speak_type">Mod de verbalizare a acțiunilor în joc:</string>
+    <string name="sm_speak_type_0">Fără verbalizare a acţiunilor</string>
+    <string name="sm_speak_type_1">Verbalizare prin regiune live (valabil pentru Android 4.4 sau mai nou)</string>
+    <string name="sm_speak_type_2">Verbalizare direct prin TTS</string>
+    <string name="sm_speak_type_3">Detectarea automată a modului adecvat de verbalizare</string>
+    <string name="sm_bt_tts_settings">Setări TTS (util dacă verbalizarea este prin TTS)</string>
+    <string name="sm_heading_tts_settings">Setări TTS</string>
+    <string name="sm_bt_close_tts_settings">Anulează!</string>
+    <string name="sm_bt_save_tts_settings">Salvează!</string>
+    <string name="sm_board_notation">Notația tablei de joc:</string>
+    <string name="sm_board_notation_1">Poziții de la 1 la 12, părți A și B</string>
+    <string name="sm_board_notation_2">Poziții de la 1 la 24</string>
+    <string name="sm_board_notation_0">Poziții fără etichetă</string>
+    <string name="sm_tv_note_hint_content_description">Notă:\nDezactivând sugestiile pentru piesă luată, unde se poate pune și/sau unde se poate reintra din Setările vizuale, va dezactiva și sugestiile verbale oferite prin descriere de conținut pentru cititoarele de ecran.</string>
+    <string name="sm_heading_language_settings">Setări de limbă</string>
+    <string name="sm_bt_language_settings">Limbă (Language)…</string>
+    <string name="sm_bt_close_language_settings">Închide setările de limbă</string>
+    <string name="sm_details_language">Este posibil să alegi o altă limba în acest joc, decât cea implicită, a dispozitivului.\nDacă are loc schimbarea dintr-o altă limbă în cea implicită, este necesară repornirea aplicației.</string>
+    <string name="sm_lang_default">Limba dispozitivului</string>
+    <string name="sm_lang_english">Engleză (English)</string>
+    <string name="sm_lang_romanian">Română (Romanian)</string>
+    <string name="sm_lang_russian">русский (Russian)</string>
+
+    <!-- Strings in TTS settings alert: -->
+    <string name="tv_engines_initial_message">O listă cu motoarele TTS disponibile va apărea aici…</string>
+    <!-- A plurals resource for results: -->
+    <plurals name="tv_number_of_engines">
+        <item quantity="one">Alege singurul motor de redare text în voce disponibil:</item>
+        <item quantity="few">Alege unul dintre cele %d motoare TTS disponibile:</item>
+        <item quantity="other">Alege unul dintre cele %d de motoare TTS disponibile:</item>
+    </plurals>
+
+    <string name="tv_voices_initial_message">O listă cu vocile şi limbile disponibile va apărea aici după ce alegi un motor TTS…</string>
+    <string name="error_after_choosing_engine">Motorul TTS ales nu poate fi încărcat.\nEste o eroare necunoscută.\nTe rugăm să încerci altul.</string>
+    <string name="tv_choose_a_voice">Alege %1$s în motorul &lt;i>%2$s&lt;/i> pentru mai multe detalii:</string>
+    <!-- A plurals resource for %1$s in string above: -->
+    <plurals name="tv_number_of_voices">
+        <item quantity="one">singura voce disponibilă</item>
+        <item quantity="few">una din cele %d voci disponibile</item>
+        <item quantity="other">una din cele %d de voci disponibile</item>
+    </plurals>
+
+    <string name="tv_no_voices_available">Nu s-au detectat voci pentru acest motor TTS.\nÎncearcă un alt motor din listă.</string>
+    <string name="one_voice_in_list">%1$s &lt;b>%2$s&lt;/b> &lt;i>%3$s&lt;/i> &lt;i>%4$s&lt;/i></string>
+    <string name="a_voice_chosen_to_check">&lt;b>%1$s (%2$s)&lt;/b></string>
+    <string name="tv_set_tts_rate">Viteză de vorbire:</string>
+    <string name="tv_set_tts_pitch">Frecvență voce:</string>
+    <string name="bt_tts_sample">Ascultă o mostră în limba jocului!</string>
+    <string name="bt_tts_sample2">Ascultă o mostră în limba TTS-ului!</string>
+    <string name="sample_tts_text">Bună! Pot citi multe mesaje când te distrezi cu acest joc de table. Dacă îți place vocea mea, alege-mă făcând clic pe butonul Salvează. Mulţumiri!</string>
+    <string name="the_sample">Textul</string>
+    <string name="the_sample_message">Textul exemplu care a fost citit apăsând butonul &lt;b>%1$s&lt;/b> este:&lt;br>&lt;i>%2$s&lt;/i></string>
+
+    <!-- Visual settings, animations: -->
+    <string name="sm_bt_visual_settings">Vizuale…</string>
+    <string name="sm_bt_close_visual_settings">Închide setările vizuale</string>
+    <string name="sm_heading_visual_settings">Setări vizuale</string>
+    <string name="sm_animations_heading">Animații pentru acțiuni și sugestii</string>
+    <string name="sm_cbt_anim_hint_where_put">Sugestie de poziţii valide pentru a pune o piesă</string>
+    <string name="sm_cbt_anim_hint_where_enter">Sugestie pentru pozițiile valide pentru a reintra de pe bară</string>
+    <string name="sm_cbt_anim_hint_where_taken">Indică poziția de la care a fost luată o piesă</string>
+    <string name="sm_cbt_show_arrange_board">Arată efectul de aranjare a tablei</string>
+
+    <!-- Reset to default strings: -->
+    <string name="tv_reset_tts_settings">Apasă butonul următor pentru a reseta toate setările TTS existente pentru acest joc.\nMesajele vor fi citite folosind setările TTS generale, cele utilizate și de cititorul de ecran.</string>
+    <string name="sm_bt_reset_tts_settings">Resetează setările TTS!</string>
+    <string name="tts_set_default_toast">Setările TTS au fost resetate cu succes la valorile implicite.</string>
+
+    <!-- Strings for game history: -->
+    <string name="game_history_title">Istoric mesaje</string>
+    <string name="bt_close_history">Închide istoricul mesajelor</string>
+    <string name="history_number_of_messages">&lt;i>Istoricul conține &lt;b>%1$s&lt;/b>.&lt;/i></string>
+    <!-- A plurals resource for number of messages in history: -->
+    <plurals name="msg_number_of_messages">
+        <item quantity="one">un mesaj</item>
+        <item quantity="few">%d mesaje</item>
+        <item quantity="other">%d de mesaje</item>
+    </plurals>
+
+    <!-- Various messages during the game, these are shown on the text zone: -->
+    <string name="msg_click_again_back">Apasă din nou Înapoi pentru a închide jocul!</string>
+    <string name="msg_please_wait">Te rugăm să aștepți…</string>
+    <string name="msg_wait_opponent_turn">Te rugăm să aștepți…\nEste rândul adversarului…</string>
+    <string name="msg_game_is_paused">Jocul este pus pe pauză…</string>
+    <string name="msg_setting_up_board">Se aranjează tabla…</string>
+    <string name="msg_board_arranged_initially">Tabla a fost aranjată pentru o nouă partidă</string>
+    <string name="msg_rolling_first_dice">Se aruncă primul zar pentru a vedea cine începe…</string>
+    <string name="msg_first_dice_not_decided">Zaruri la fel, aruncați din nou pentru a decide cine va începe!</string>
+    <string name="msg_rolling_dice">Se aruncă zarurile…</string>
+    <string name="msg_rolled_first_dice">%1$s a aruncat &lt;b>%2$d&lt;/b>, %3$s &lt;b>%4$d&lt;/b></string>
+    <string name="msg_rolled_first_dice_in_local_game">%1$s a aruncat &lt;b>%2$d&lt;/b>, %3$s &lt;b>%4$d&lt;/b></string>
+    <string name="msg_someone_rolled_dice">%1$s a aruncat &lt;b>%2$d&lt;/b>, &lt;b>%3$d&lt;/b></string>
+    <string name="msg_someone_rolled_dice_in_local_game">%1$s a aruncat &lt;b>%2$d&lt;/b>, &lt;b>%3$d&lt;/b></string>
+    <string name="msg_taken_from">Luată de la %1$s</string>
+    <string name="msg_put_back">Pusă înapoi la %1$s</string>
+    <string name="msg_put_to">Pusă la %1$s</string>
+    <string name="msg_put_and_hit">Pusă la %1$s cu lovire</string>
+    <string name="msg_enter_to">Intrată la %1$s</string>
+    <string name="msg_enter_and_hit">Intrată la %1$s cu lovire</string>
+    <string name="msg_removed_from">Eliminată de la %1$s</string>
+    <string name="msg_impossible_move">&lt;b>%1$s&lt;/b> nu poate face nimic…</string>
+    <string name="msg_impossible_move_in_local_game">&lt;b>%1$s&lt;/b> nu poate face nimic…</string>
+    <string name="msg_nobody_must_move">Nu este rândul nimănui</string>
+    <string name="msg_it_is_turn">%1$s este la rând</string>
+    <!-- An array with opponents names in off-line games: -->
+    <string name="msg_it_is_turn_in_local_game">%1$s este la rând</string>
+
+    <string-array name="msg_offline_opponents_array">
+        <item>null</item>
+        <item>Albul</item>
+        <item>Negrul</item>
+    </string-array>
+    <string-array name="msg_ai_opponents_array">
+        <item>null</item>
+        <item>Utilizatorul</item>
+        <item>Robotul</item>
+    </string-array>
+    <!-- An array with opponents names in AI games, two bots: -->
+    <string-array name="msg_two_ai_opponents_array">
+        <item>null</item>
+        <item>Robotul1</item>
+        <item>Robotul2</item>
+    </string-array>
+    <!-- An array for type of wins -->
+    <string-array name="msg_win_types_array">
+        <item>null</item>
+        <item>un punct</item>
+        <item>două puncte – &lt;b>marț&lt;/b></item>
+        <item>trei puncte – &lt;b>backgammon&lt;/b></item>
+        <item>patru puncte – &lt;b>backgammon dublu&lt;/b></item>
+    </string-array>
+
+    <string name="msg_winner">%1$s câștigă %2$s!</string>
+    <string name="msg_winner_in_local_game">%1$s câștigă %2$s!</string>
+
+    <!-- String for in_app_billing, Premium version: -->
+    <string name="bt_premium">Premium…</string>
+    <string name="premium_version_alert_title">Versiune Premium</string>
+    <string name="non_premium_version_alert_message">Dacă vrei să scapi de reclame și să obții alte facilități, poți cumpăra versiunea Premium a jocului JustGammon.\nPoți cumpăra versiunea Premium doar pentru %1$s, plătind cu cardul tău în Magazinul Google, apăsând butonul Cumpără din această fereastră.\nPoți de asemenea promova la versiunea Premium dacă ai un cod de activare primit de la dezvoltator. Poți cumpăra un astfel de cod vizitând www.justgammon.com, după care îl copiezi în caseta care apare dacă alegi butonul Introdu cod din această fereastră.\nÎn orice situație, versiunea Premium va fi valabilă pentru totdeauna, chiar și pentru instalările ulterioare ale jocului pe un dispozitiv autentificat cu același nume de utilizator.</string>
+    <string name="premium_version_alert_message">Deja ai versiunea Premium, mulțumim pentru interesul acordat acestui joc de table.</string>
+    <string name="bt_buy_premium">Cumpără acum!</string>
+    <string name="bt_enter_code_premium">Introdu cod!</string>
+    <string name="enter_code_title">Cod de activare</string>
+    <string name="enter_code_message">Scrie codul de înregistrare pentru ID-ul tău unic %1$s, apoi apasă butonul Continuă pentru a promova la versiunea Premium</string>
+    <string name="enter_code_hint">Scrie aici cele 8 caractere…</string>
+    <string name="enter_code_wrong">Codul introdus nu este valid.\nTe rugăm încearcă din nou…</string>
+    <string name="title_activity_premium_version">Versiune Premium</string>
+    <string name="activity_premium_message">Felicitări!\nJustGammon a fost promovat cu succes la versiunea Premium pe acest dispozitiv.\nDe acum înainte, reclamele Google nu te vor mai deranja.\nMulțumim pentru interesul acordat acestui joc de table.</string>
+
+    <!-- Strings for manager alert: -->
+    <string name="manager_title">Manager, configurări joc</string>
+    <string name="bt_close_manager">Închide managerul</string>
+    <string name="tv_game_types_title_message">Alege tipul de joc:</string>
+    <string name="tv_game_types_note_message">Notă:\nToate setările din manager sunt memorate la click-uri, nu este nevoie de buton de Salvare.</string>
+    <string name="sm_game_type_1">Local</string>
+    <string name="mng_cbt_turn_perspective_automatically_android_tv">Schimbă automat perspectiva tablei pe televizor în jocurile locale</string>
+    <string name="mng_cbt_turn_perspective_automatically">Schimbă automat perspectiva tablei în jocurile locale</string>
+    <string name="sm_game_type_2">Robot AI</string>
+    <string name="tv_game_type_settings_title_1">Setări pentru jocurile locale (doi pe același dispozitiv)</string>
+    <string name="tv_game_type_settings_title_2">Setări pentru jocuri împotriva Robotului</string>
+    <string name="tv_choose_difficulty_level">Alege nivelul de dificultate:</string>
+    <string name="mng_difficulty_level_1">Ușor (nivelul 1)</string>
+    <string name="mng_difficulty_level_2">Greu (nivelul 2)</string>
+    <string name="mng_difficulty_level_3">Dificil (nivelul 3 - mutarea Robotului durează foarte mult)</string>
+    <string name="mng_current_nickname">Numele tău în jocurile off-line este &lt;b>%1$s&lt;/b>.&lt;br>Îl poți schimba apăsând butonul următor:</string>
+    <string name="mng_bt_change_nickname">Schimbă-ți numele…</string>
+    <string name="mng_nickname_title">Nume sau poreclă</string>
+    <string name="mng_local_nickname_caption">Scrie în câmpul de editare de mai jos numele sau porecla cu care vrei să apari în jocurile off-line:</string>
+    <string name="mng_local_nickname_hint">Scrie aici minim 3, maximum 20 caractere…</string>
+    <string name="mng_wrong_local_nickname">Numele trebuie să înceapă cu literă mare și trebuie să conțină minim 3, maximum 20 litere și / sau cifre.</string>
+    <string name="mng_bt_change_showing_moves">Modifică modul în care se afișează mutările Robotului…</string>
+    <string name="mng_showing_interval_title">Afișarea mișcărilor Robotului</string>
+    <string name="mng_change_showing_moves_caption">Alege intervalul de timp dintre mișcările Robotului afișate sau alege să nu fie afișată fiecare mutare:</string>
+    <string name="mng_bt_reset_score">Resetează scorul la 0 – 0</string>
+    <string name="mng_reset_score_title">Resetare scor</string>
+    <string name="mng_reset_score_body_gt_1">Sigur vrei să resetezi scorul la 0 – 0 în jocurile locale (doi pe același dispozitiv)?</string>
+    <string name="mng_reset_score_body_gt_2">Sigur vrei să resetezi scorul la 0 – 0 în jocurile împotriva Robotului?</string>
+    <string name="sm_game_type_3">On-line</string>
+
+    <string-array name="moves_interval_array">
+        <item>Dezactivează afișarea fiecărei mutări pe rând</item>
+        <item>o jumătate de secundă</item>
+        <item>o secundă</item>
+        <item>o secundă și jumătate</item>
+        <item>două secunde</item>
+        <item>două secunde și jumătate</item>
+        <item>trei secunde</item>
+    </string-array>
+
+    <string name="mng_current_moves_interval">Setarea curentă pentru intervalul intre mutările Robotului este: &lt;b>%1$s&lt;/b></string>
+
+    <!-- Strings for statistics from main menu: -->
+    <string name="bt_close_statistics">Închide statisticile</string>
+    <string name="statistics_title">Statistici</string>
+    <string name="stats_intro">Aici sunt prezentate câteva statistici începând cu finalizarea primului joc pe acest dispozitiv&lt;br> &lt;i>(%1$s)&lt;/i>:</string>
+    <string name="stats_no_records_found">Nu a fost jucată încă nicio partidă</string>
+    <string name="stats_no_stats_available_yet">Nu putem afişa statistici, deoarece nu ai jucat încă niciun joc.</string>
+    <string name="stats_games_played">Partide jucate: &lt;b>%1$d&lt;/b>&lt;br> - finalizate – %2$d, abandonate – %3$d;</string>
+    <string name="stats_games_by_type">Partide după tip:&lt;br> - locale – %1$d, împotriva Robotului – %2$d, doi roboți – %3$d;</string>
+    <string name="stats_games_by_level">Partide după nivelul de dificultate:&lt;br> - Ușor – %1$d, Greu – %2$d;</string>
+    <string name="stats_games_by_win_type">Partide după tipul câștigului:&lt;br> - Un punct – %1$d (însemnând %2$.2f%%);&lt;br> - Marț – %3$d (însemnând %4$.2f%%);&lt;br> - Backgammon – %5$d (însemnând %6$.2f%%);&lt;br> - Backgammon dublu – %7$d (însemnând %8$.2f%%);</string>
+    <string name="stats_won_and_lost_games_in_ai">În partidele contra Robotului:&lt;br> - ai câștigat %1$d (însemnând %2$.2f%%);&lt;br> - ai pierdut %3$d (însemnând %4$.2f%%);</string>
+    <string name="stats_won_by_color_games_in_local">În partidele locale:&lt;br> - Albul a câștigat %1$d (însemnând %2$.2f%%);&lt;br> - Negrul a câștigat %3$d (însemnând %4$.2f%%);</string>
+    <string name="stats_duration_as_string">%1$s, %2$s, %3$s și %4$s</string>
+    <string name="stats_total_duration">Timp total petrecut jucând JustGammon:&lt;br>&lt;i>%1$s&lt;/i>;</string>
+    <string name="stats_minutes_and_seconds">%1$s:%2$s</string>
+    <string name="stats_average_duration">Durata medie per partidă în minute și secunde: &lt;i>%1$s&lt;/i>;</string>
+    <string name="stats_dice_rolls">Aruncări cu zarurile: %1$d;</string>
+    <string name="stats_dice_average">Medie valoare zaruri: %1$.2f;</string>
+    <string name="stats_doubles_average">Medie duble pe joc: %1$.2f;</string>
+    <string name="stats_captures_average">Medie capturi pe joc: %1$.2f;</string>
+
+    <plurals name="plural_days">
+        <item quantity="one">o zi</item>
+        <item quantity="few">%d zile</item>
+        <item quantity="other">%d de zile</item>
+    </plurals>
+    <plurals name="plural_hours">
+        <item quantity="one">o oră</item>
+        <item quantity="few">%d ore</item>
+        <item quantity="other">%d de ore</item>
+    </plurals>
+    <plurals name="plural_minutes">
+        <item quantity="one">un minut</item>
+        <item quantity="few">%d minute</item>
+        <item quantity="other">%d de minute</item>
+    </plurals>
+    <plurals name="plural_seconds">
+        <item quantity="one">o secundă</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="other">%d de secunde</item>
+    </plurals>
+
+    <!-- Strings for game statistics: -->
+    <string name="sg_dialog_title">Informații joc curent</string>
+    <string name="sg_bt_close_statistics">Închide informațiile</string>
+    <string name="sg_introduction">Câteva statistici și informații despre linia curentă</string>
+    <string name="sg_no_stats_available">Informațiile de aici sunt disponibile numai dacă este un joc în desfășurare.</string>
+    <!-- A plurals resource to say the number of playable checkers: -->
+    <plurals name="plural_available_moves">
+        <item quantity="one">Există o singură mișcare posibilă în acest moment;</item>
+        <item quantity="few">Există %d mișcări posibile în acest moment;</item>
+        <item quantity="other">Există %d de mișcări posibile în acest moment;</item>
+    </plurals>
+
+    <string name="sg_time_elapsed">Timp scurs: %1$s</string>
+    <string name="sg_time_elapsed_with_percentages">%1$s (Albul – %2$d%%, Negrul – %3$d%%)</string>
+    <string name="sg_checkers_vulnerable">Piese descoperite:&lt;br>albe – %1$d, negre – %2$d;</string>
+    <string name="sg_dice_points_to_finish">Puncte de zar până la finalizare:&lt;br>Albul – %1$d, Negrul – %2$d;</string>
+    <string name="sg_chances_of_winning">Șanse de câștig:&lt;br>Albul – %1$d%%, Negrul – %2$d%%;</string>
+    <string name="sg_efficiency">Procentaj de eficiență:&lt;br>Albul – %1$d%%, Negrul – %2$d%%;</string>
+    <string name="sg_checkers_in_inner_boards">Piese în case:&lt;br>albe – %1$d, negre – %2$d;</string>
+    <string name="sg_checkers_on_the_bars">Piese pe bară:&lt;br>albe – %1$d, negre – %2$d;</string>
+    <string name="sg_checkers_removed">Piese eliminate:&lt;br>albe – %1$d, negre – %2$d;</string>
+    <string name="sg_dice_throws">Aruncări de zaruri:&lt;br>Albul – %1$d, Negrul – %2$d;</string>
+    <string name="sg_dice_doubles">Duble de zar:&lt;br>Albul – %1$d, Negrul – %2$d;</string>
+    <string name="sg_dice_total_points">Total puncte de zar:&lt;br>Albul – %1$d, Negrul – %2$d;</string>
+    <string name="sg_dice_average">Media zarurilor:&lt;br>Albul – %1$.2f, Negrul – %2$.2f;</string>
+    <string name="sg_number_of_captures">Capturi efectuate:&lt;br>de Alb – %1$d, de Negru – %2$d;</string>
+
+    <!-- More options, the right bottom corner button opens a context menu: -->
+    <string name="cm_title">Opțiuni</string>
+    <string name="cm_abandon">Abandonează jocul curent</string>
+    <string name="cm_open">Deschide un joc salvat</string>
+    <string name="cm_save">Salvează jocul curent</string>
+    <string name="cm_help">Citește Ajutorul JustGammon</string>
+    <string name="cm_rate">Evaluează jocul</string>
+
+    <!-- Abandon strings: -->
+    <string name="title_abandon">Abandon</string>
+    <string name="body_abandon_question">Sigur vrei să abandonezi acest joc?</string>
+    <string name="abandon_not_your_turn">Poți să abandonezi un joc doar când e rândul tău.\nTe rugăm așteaptă puțin și încearcă din nou…</string>
+    <string name="abandon_not_enough_rolls">Este prea devreme să abandonezi…\nÎncearcă din nou după alte câteva mutări…</string>
+    <string name="abandon_message">%1$s a abandonat.</string>
+    <string name="abandon_message_in_local_game">%1$s a abandonat.</string>
+
+    <!-- Games history strings: -->
+    <string name="bt_show_last_games">Vezi ultimele jocuri…</string>
+    <string name="history_last_games_title">Ultimele jocuri</string>
+    <string name="history_bt_close_last_games">Închide ultimele jocuri</string>
+    <string name="history_games_not_found">Aici vor apărea ultimele jocuri.</string>
+    <string name="history_show_history">Istoric…</string>
+    <string name="history_show_statistics">Statistici…</string>
+    <string name="history_a_game_in_list">Joc %1$s, &lt;b>%2$s&lt;/b>, %3$s &lt;i>(%4$s)&lt;/i></string>
+
+    <string-array name="array_type_of_finish">
+        <item>finalizat</item>
+        <item>abandonat deliberat</item>
+        <item>abandonat forțat</item>
+    </string-array>
+    <string-array name="array_type_of_game">
+        <item>doi roboți</item>
+        <item>local</item>
+        <item>Robot AI</item>
+        <item>on-line</item>
+        <item>Bluetooth</item>
+        <item>Wireless direct</item>
+    </string-array>
+    <string-array name="array_who_won">
+        <item>pierdut</item>
+        <item>câștigat</item>
+    </string-array>
+    <string-array name="array_who_won_color">
+        <item>null</item>
+        <item>Albul a câștigat</item>
+        <item>negrul a câștigat</item>
+    </string-array>
+
+    <string name="history_next_games">Vezi mai vechi -></string>
+
+    <!-- Strings added in version 1.1: -->
+    <string name="sm_cbt_announce_all_in_home_boards">Anunță când toate piesele ajung în casă</string>
+    <string name="msg_all_in_home_board">%1$s și-a adus toate piesele în casă</string>
+    <string name="msg_all_in_home_board_local_games">%1$s și-a adus toate piesele în casă</string>
+    <string name="msg_say_vulnerable_checkers">Poziții piese descoperite:&lt;br>albe: %1$s;&lt;br>negre: %2$s.</string>
+    <string name="msg_nonexistent_vulnerable_checkers">niciunde</string>
+
+    <!-- Strings for two bots games: -->
+    <string name="sm_game_type_0">Doi roboți</string>
+    <string name="tv_game_type_settings_title_0">Setări pentru jocurile între 2 roboți</string>
+    <string name="msg_not_not_available_in_two_bots">Poți doar urmări acest joc…</string>
+    <string name="mng_reset_score_body_gt_0">Sigur vrei să resetezi scorul la 0 – 0 în jocurile între doi roboți?</string>
+
+    <!-- String in settings management: -->
+    <string name="sm_chb_accessible_checkers">Utilizează piese verzi și roșii pentru îmbunătățirea accesibilității pentru slab văzători</string>
+
+    <!-- Strings in visual settings: -->
+    <string name="sm_tv_choose_orientation">Alege orientarea în Meniul principal și Setări</string>
+    <string name="sm_rb_orientation_0">Detectare automată</string>
+    <string name="sm_rb_orientation_1">Portret forțat</string>
+    <string name="sm_rb_orientation_2">Vedere forțat</string>
+
+    <!-- Strings for what's new or other important information for last version: -->
+
+    <string name="whatsnew_title">Ceva nou</string>
+    <string name="whatsnew_in_151_a">Din rațiuni de confidențialitate, nu mai solicităm numele de utilizator Google, de acum utilizatorul este anonim. Totuși există un număr generat aleatoriu care să facă o distincție în bazele de date, acest număr nu este asociat cu un utilizator anume.</string>
+    <string name="whatsnew_in_151_b">Au fost rezolvate câteva probleme de compatibilitate cu Android 10 și 11.</string>
+    <string name="whatsnew_in_151_c">Se pot alege piese accesibile pentru persoanele cu deficiențe de vedere; această opțiune este în Setări la Accesibilitate.</string>
+    <string name="whatsnew_in_151_d">For a full list of changes, read the Changelog found in Information section.</string>
+    <string name="chk_got_it">Nu mai arăta!</string>
+
+</resources>

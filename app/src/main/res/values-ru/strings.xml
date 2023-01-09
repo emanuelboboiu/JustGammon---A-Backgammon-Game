@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- The next string must contain the current locale language in two letters, in latin alphabet: -->
+    <string name="cur_lang">ru</string>
+    <string name="app_name">JustGammon</string>
+    <string name="title_activity_game">JustGammon</string>
+    <string name="tv_premium_version">JustGammon премиум</string>
+    <string name="welcome_message">Вас приветствует JustGammon!</string>
+    <string name="bt_start_game">Начать игру</string>
+    <string name="bt_continue_game">Продолжить игру</string>
+    <string name="bt_settings">Настройки…</string>
+    <string name="bt_about">О программе…</string>
+    <string name="bt_help">Справка…</string>
+    <string name="bt_game_mode">Менеджер…</string>
+    <string name="bt_statistics">Статистика</string>
+    <string name="bt_ok">Окей</string>
+    <string name="bt_close">Закрыть</string>
+    <string name="bt_cancel">Отмена</string>
+    <string name="bt_save">Сохранить</string>
+    <string name="bt_yes">Да</string>
+    <string name="bt_no">Нет</string>
+    <string name="bt_continue">Продолжить</string>
+
+    <!-- Information dialog strings: -->
+    <string name="bt_information">Информация…</string>
+    <string name="info_title">Информация</string>
+    <string name="bt_close_information">Закрыть информацию</string>
+    <string name="bt_news">Новости…</string>
+    <string name="news_title">Новости</string>
+    <string name="bt_close_news">Закрыть новости</string>
+    <string name="bt_changelog">История версий…</string>
+    <string name="changelog_title">История версий</string>
+    <string name="bt_close_changelog">Закрыть историю версий</string>
+    <string name="bt_privacy">Прочитать политику конфиденциальности…</string>
+    <string name="privacy_title">Политика конфиденциальности</string>
+    <string name="bt_close_privacy">Закрыть политику конфиденциальности</string>
+    <string name="bt_online_statistics">Он-лайн статистика…</string>
+    <string name="online_statistics_title">Он-лайн статистика</string>
+    <string name="bt_close_online_statistics">Закрыть он-лайн статистику</string>
+    <string name="no_internet_for_webviews">Нет подключения к интернету.\nЭта информация загружается с нашего сайта.\nПожалуйста, подключитесь к интернету и попробуйте снова…</string>
+
+    <!-- Help strings -->
+    <string name="help_alert_title">Справка</string>
+    <string name="bt_close_help">Закрыть справку</string>
+
+    <!-- Dice strings: -->
+    <string name="dice_status">%1$d, %2$d</string>
+    <string name="dice_blank">Зара ещё не брошена</string>
+    <string name="cd_die_face_available">%1$d, зара ещё не использована</string>
+    <string name="cd_die_face_used">%1$d, зара использована</string>
+    <string name="cd_die_face_used_half">%1$d, Зара не использована полностью</string>
+
+    <!-- A plurals resource to announce remaining moves t o do for current dice: -->
+    <plurals name="cd_number_of_remaining_moves">
+        <item quantity="one">Остался ещё %d ход.</item>
+        <item quantity="other">Осталось ещё %d хода.</item>
+        <item quantity="many">Осталось ещё %d ходов.</item>
+    </plurals>
+
+    <!-- Strings for date: -->
+    <string name="today">сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <!-- The next format date can be seen formated in About alert: -->
+    <string name="date_format">%1$s, %2$s %3$s %4$s, %5$s:%6$s</string>
+    <string name="msg_time">Сейчас %1$s</string>
+
+    <!-- About dialog: -->
+    <string name="about">О программе</string>
+    <string name="about_title">О программе</string>
+    <string name="app_version">JustGammon %1$s</string>
+    <string name="app_release_date">Дата выпуска первой версии: %1$s</string>
+    <string name="app_last_update">Дата выпуска этой версии: %1$s</string>
+    <string name="app_creator">Программист Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Телефон: +40740203043</string>
+    <string name="email_address">е-мэйл: contact@justgammon.com</string>
+    <string name="web_address">Сайт: www.justgammon.com</string>
+    <string name="app_credits1">Дезайнер Iulian Duma</string>
+    <string name="app_credits2">Бета тестеры: %1$s</string>
+    <!-- Next string will be replaced with your language and your name, written in your language: -->
+    <string name="app_credits3">Переводчик: Александр Козловский (Саша)</string>
+    <string name="mnu_rate">Оценить игру!</string>
+    <string name="title_rate_app">Оценка игры</string>
+    <string name="body_rate_app">Если Вам понравилась эта игра, пожалуйста оцените её в Play маркете.\nВысокая оценка поможет этому приложению быть наиболее популярному среди игр в нарды в Play маркете и также простимулирует нас работать больше для улучшения этой игры.</string>
+    <string name="bt_rate">Оценить сейчас!</string>
+    <string name="bt_not_now">Потом!</string>
+
+    <!-- Information, error and warning messages: -->
+    <string name="information">Информация</string>
+    <string name="error">Ошибка</string>
+    <string name="warning">Предупреждение</string>
+    <string name="no_connection_available">Ошибка подключения к интернету. Подключитесь к интернету и попытайтесь снова.</string>
+
+    <!-- For content descriptions: -->
+    <string name="cd_bt_play">Начать новую игру</string>
+    <string name="cd_bt_pause">Приостановить игру</string>
+    <string name="cd_bt_resume">Продолжить игру</string>
+    <string name="cd_bt_statistics">Показать статистику</string>
+    <string name="cd_bt_options">Показать дополнительные возможности</string>
+    <string name="cd_position_status">%1$s %2$s.</string>
+    <string name="cd_empty">Пусто</string>
+    <string name="cd_almost_taken">%1$s. Шашка взята.</string>
+    <string name="cd_hint_can_put">%1$s. Вы можете положить шашку сюда.</string>
+    <string name="cd_hint_can_enter">%1$s. Шашку можно вернуть сюда.</string>
+
+    <!-- A plurals resource for white pieces: -->
+    <plurals name="cd_number_of_white_pulls">
+        <item quantity="one">%d белая</item>
+        <item quantity="other">%d белые</item>
+        <item quantity="many">%d белых</item>
+    </plurals>
+    <!-- A plurals resource for black pieces: -->
+    <plurals name="cd_number_of_black_pulls">
+        <item quantity="one">%d чёрная</item>
+        <item quantity="other">%d чёрные</item>
+        <item quantity="many">%d чёрных</item>
+    </plurals>
+
+    <string-array name="colors_array">
+        <item>пусто</item>
+        <item>белый</item>
+        <item>Чёрный</item>
+    </string-array>
+
+    <string name="cd_border">Граница</string>
+    <string name="cd_border_status">%1$s %2$s.</string>
+    <!-- An array with names of the borders, 6 items: -->
+    <string-array name="borders_names_array">
+        <item>Нижняя правая граница</item>
+        <item>Верхняя правая граница</item>
+        <item>Нижняя средняя граница:>:</item>
+        <item>Верхняя средняя граница:</item>
+        <item>Нижняя левая граница:</item>
+        <item>Верхняя левая граница:</item>
+    </string-array>
+
+    <!-- Strings in settings management: -->
+    <string name="title_activity_settings">Настройки</string>
+    <string name="close_settings">Закрыть настройки</string>
+    <string name="bt_reset_to_defaults">Сбросить все настройки до настроек по умолчанию…</string>
+    <string name="title_default_settings">Настройки по умолчанию</string>
+    <string name="body_default_settings">Вы хотите сбросить все настройки приложения?\nВсе настройки будут сброшены до настроек по умолчанию.\nЕсли Вы купили премиум версию через Play маркет, версия станет премиум во время следующей загрузки.\nВы также можете ввести код активации, чтобы Ваша версия стала премиум версией.</string>
+    <string name="sm_bt_general_settings">Общие настройки…</string>
+    <string name="sm_bt_close_general_settings">Закрыть общие настройки</string>
+    <string name="sm_heading_general_settings">Общие настройки</string>
+    <string name="sm_enable_vibration">Включить вибрацию для разных событий</string>
+    <string name="sm_enable_screen_awake">Невыключать экран во время игры</string>
+    <string name="sm_enable_clock_cuckoo">Включить автоматическое объявление времени с 15-и минутным интервалом</string>
+    <string name="sm_enable_save_history">Автоматически сохранять историю каждой игры</string>
+    <string name="sm_bt_sounds_settings">Звуковые настройки…</string>
+    <string name="sm_bt_close_sounds_settings">Закрыть звуковые настройки</string>
+    <string name="sm_heading_sounds_settings">Звуковые настройки</string>
+    <string name="sm_enable_sounds">Включить звуки для разных событий</string>
+    <string name="sm_enable_music">Включить музыку и фоновые звуки</string>
+    <string name="sm_sound_volume">Выберите громкость звуков (в процентах):</string>
+    <string name="sm_enable_background_menu">Включить фоновую музыку в главном окне программы</string>
+
+    <!-- Name of sound to be checked or unchecked: -->
+    <string name="sm_heading_sounds_choose">Выберите те события, при которых в игре будет воспроизводиться соответствующий звук:</string>
+
+    <string-array name="sounds_array">
+        <item>null</item>
+        <item>Постепенное расставление шашек на доске</item>
+                                                                                                                                                                                                                                                                                                                               <item>Пора объявлять время</item>
+        <item>Текущая позиция</item>
+        <item>Границы</item>
+        <item>Нечем ходить</item>
+        <item>Бросок зар</item>
+        <item>Шашка взята</item>
+        <item>Шашка положена</item>
+        <item>Не корректный ход или запрещено действие</item>
+        <item>Шашка сбита</item>
+        <item>Брошена первая зара</item>
+        <item>Игра приостановлена</item>
+        <item>Игра продолжена</item>
+        <item>Ваш ход</item>
+        <item>Бот думает</item>
+        <item>Закрытие доски</item>
+        <item>Открытие настроек</item>
+        <item>Закрытие настроек</item>
+        <item>Победа</item>
+        <item>Победа (марс)</item>
+        <item>Победа (домашний марс)</item>
+        <item>Победа (двойной марс)</item>
+        <item>Проигрыш</item>
+        <item>Проигрыш (марс)</item>
+        <item>Проигрыш (домашний марс)</item>
+        <item>Проигрыш (двойной марс)</item>
+        <item>Все шашки в доме</item>
+        <item>Быстрое расставление шашек на доске</item>
+    </string-array>
+
+    <string name="sm_bt_accessibility_settings">Настройки невизуального доступа:</string>
+    <string name="sm_bt_close_accessibility_settings">Закрыть настройки невизуального доступа</string>
+    <string name="sm_heading_accessibility_settings">Настройки невизуального доступа</string>
+    <string name="sm_speak_type">Способ озвучивания игровых событий:</string>
+    <string name="sm_speak_type_0">Не озвучивать события</string>
+    <string name="sm_speak_type_1">озвучивать события, используя live region (доступно с андроид 4.4 и новее)</string>
+    <string name="sm_speak_type_2">озвучивать события, используя TTS</string>
+    <string name="sm_speak_type_3">Автоматически подбирать подходящий способ озвучивания событий</string>
+    <string name="sm_bt_tts_settings">Параметры tts: (будет работать, если выбран способ озвучивать события, используя TTS)</string>
+    <string name="sm_heading_tts_settings">Параметры TTS</string>
+    <string name="sm_bt_close_tts_settings">Отмена!</string>
+    <string name="sm_bt_save_tts_settings">Сохранить!</string>
+    <string name="sm_board_notation">Нотация пунктов доски:</string>
+    <string name="sm_board_notation_1">столбцы с 1 по 12, Строки a и b</string>
+    <string name="sm_board_notation_2">Классическая (с 1 до 24)</string>
+    <string name="sm_board_notation_0">Не подписывать пункты</string>
+    <string name="sm_tv_note_hint_content_description">Примечание:\nОтключение каждой подсказки в визуальных настройках приведёт к тому, что она также не будет озвучиваться скринридерами.</string>
+    <string name="sm_bt_language_settings">Язык программы (Language)…</string>
+    <string name="sm_bt_close_language_settings">Закрыть настройки языка</string>
+    <string name="sm_heading_language_settings">Язык программы…</string>
+    <string name="sm_details_language">можно выбрать другой язык программы, в отличии от языка устройства.\nЕсли Вы решили вернуть язык по умолчанию, после изменения языка, необходимо перезапустить программу.</string>
+    <string name="sm_lang_default">Язык устройства</string>
+    <string name="sm_lang_english">English</string>
+    <!-- For other languages than English, first is the language name in that language, after between parenthesis the English name of that language: -->
+    <string name="sm_lang_romanian">Română (Romanian)</string>
+    <string name="sm_lang_russian">Русский (Russian)</string>
+    <!-- Strings in TTS settings alert: -->
+    <string name="tv_engines_initial_message">Список всех доступных синтезаторов появится здесь…</string>
+    <!-- A plurals resource for results: -->
+    <plurals name="tv_number_of_engines">
+        <item quantity="one">Выберите один из %d доступного синтезатора речи:</item>
+        <item quantity="other">Выберите один из %d доступных синтезаторов речи:</item>
+        <item quantity="many">Выберите один из %d доступных синтезаторов речи:</item>
+    </plurals>
+
+    <string name="tv_voices_initial_message">Список всех доступных языков и голосов появится здесь, если Вы выберите один из доступных синтезаторов речи…</string>
+    <string name="error_after_choosing_engine">Не удалось загрузить выбранный синтезатор речи.\nНеизвестная ошибка.\nПожалуйста, попробуйте выбрать другой синтезатор речи.</string>
+    <string name="tv_choose_a_voice">Выберите %1$s синтезатора &lt;i>%2$s&lt;/i>:</string>
+    <!-- A plurals resource for %1$s in string above: -->
+    <plurals name="tv_number_of_voices">
+        <item quantity="one">Один голос из %d доступного голоса</item>
+        <item quantity="other">Один голос из %d доступных голосов</item>
+        <item quantity="many">Один голос из %d доступных голосов</item>
+    </plurals>
+
+    <string name="tv_no_voices_available">Не найдено не одного голоса для этого синтезатора речи.\nПожалуйста, попробуйте выбрать другой синтезатор речи из списка.</string>
+    <string name="one_voice_in_list">%1$s &lt;b>%2$s&lt;/b>&lt;i>%3$s&lt;/i> &lt;i>%4$s&lt;/i></string>
+    <string name="a_voice_chosen_to_check">&lt;b>%1$s (%2$s)&lt;/b></string>
+    <string name="tv_set_tts_rate">Скорость:</string>
+    <string name="tv_set_tts_pitch">Высота:</string>
+    <string name="bt_tts_sample">Прослушать пример на языке программы!</string>
+    <string name="bt_tts_sample2">Прослушать пример на языке голоса!</string>
+    <string name="sample_tts_text">Приветствую! Я могу озвучивать игровые события. Если Вам нравится мой голос, выберите его, нажав на кнопку сохранить. Спасибо и удачи Вам во всём!</string>
+    <string name="the_sample">Текст сообщения</string>
+    <string name="the_sample_message">Текст, который озвучивается при нажатии на кнопку &lt;b>%1$s&lt;/b>:&lt;br>&lt;i>%2$s&lt;/i></string>
+
+    <!-- Visual settings, animations: -->
+    <string name="sm_bt_visual_settings">Визуальные настройки…</string>
+    <string name="sm_bt_close_visual_settings">Закрыть визуальные настройки</string>
+    <string name="sm_heading_visual_settings">Визуальные настройки</string>
+    <string name="sm_animations_heading">Анимация для событий и подсказок</string>
+    <string name="sm_cbt_anim_hint_where_put">Подсказывать ходы</string>
+    <string name="sm_cbt_anim_hint_where_enter">Подсказывать куда можно вернуть шашку</string>
+    <string name="sm_cbt_anim_hint_where_taken">Подсказывать откуда была взята шашка</string>
+    <string name="sm_cbt_show_arrange_board">Использовать эффекты при расставлении шашек</string>
+
+    <!-- Reset to default strings: -->
+    <string name="tv_reset_tts_settings">Нажмите на кнопку сбросить параметры TTS, чтобы сбросить все существующие параметры для этой игры.\n.</string>
+    <string name="sm_bt_reset_tts_settings">Сбросить параметры tts!</string>
+    <string name="tts_set_default_toast">Параметры TTS были успешно сброшены до значений по умолчанию.</string>
+
+    <!-- Strings for game history: -->
+    <string name="game_history_title">игровая история</string>
+    <string name="bt_close_history">Закрыть игровую историю</string>
+    <string name="history_number_of_messages">&lt;i>История содержит &lt;b>%1$s&lt;/b>.&lt;/i></string>
+    <!-- A plurals resource for number of messages in history: -->
+    <plurals name="msg_number_of_messages">
+        <item quantity="one">%d сообщение</item>
+        <item quantity="other">%d сообщения</item>
+        <item quantity="many">%d сообщений</item>
+    </plurals>
+
+    <!-- Various messages during the game, these are shown on the text zone: -->
+    <string name="msg_click_again_back">Нажмите ещё раз, чтобы закрыть игровое окно!		</string>
+    <string name="msg_please_wait">Пожалуйста подождите…</string>
+    <string name="msg_wait_opponent_turn">Пожалуйста подождите…\nНе Ваш ход…</string>
+    <string name="msg_game_is_paused">Игра приостановлена…</string>
+    <string name="msg_setting_up_board">Подготовка доски для игры…</string>
+    <string name="msg_board_arranged_initially">Доска готова для новой игры</string>
+    <string name="msg_rolling_first_dice">Игроки бросают зары, чтобы определить, кто первый будет ходить…</string>
+    <string name="msg_first_dice_not_decided">Поскольку выпали одинаковые значения на зарах, нужно бросить зары ещё раз, чтобы определить, кто первый будет ходить!</string>
+    <string name="msg_rolling_dice">Бросок зар…</string>
+    <string name="msg_rolled_first_dice">%1$s выбросил &lt;b>%2$d&lt;/b>, %3$s – &lt;b>%4$d&lt;/b></string>
+    <string name="msg_rolled_first_dice_in_local_game">%1$s выбросили &lt;b>%2$d&lt;/b>, %3$s – &lt;b>%4$d&lt;/b></string>
+    <string name="msg_someone_rolled_dice">%1$s выбросил &lt;b>%2$d&lt;/b>, &lt;b>%3$d&lt;/b></string>
+    <string name="msg_someone_rolled_dice_in_local_game">%1$s выбросили &lt;b>%2$d&lt;/b>, &lt;b>%3$d&lt;/b></string>
+    <string name="msg_taken_from">взята с %1$s</string>
+    <string name="msg_put_back">возвращена на %1$s</string>
+    <string name="msg_put_to">Положена на %1$s</string>
+    <string name="msg_put_and_hit">положена на %1$s. Шашка сбита.</string>
+    <string name="msg_enter_to">возвращена из бара на %1$s</string>
+    <string name="msg_enter_and_hit">Возвращена в %1$s. Шашка сбита.</string>
+    <string name="msg_removed_from">снята с %1$s</string>
+    <string name="msg_impossible_move">&lt;b>%1$s&lt;/b> не может ходить…</string>
+    <string name="msg_impossible_move_in_local_game">&lt;b>%1$s&lt;/b> не могут ходить…</string>
+    <string name="msg_nobody_must_move">сейчас ничей ход</string>
+    <string name="msg_it_is_turn">Сейчас ходит %1$s</string>
+    <string name="msg_it_is_turn_in_local_game">Сейчас ходят %1$s</string>
+
+    <!-- An array with opponents names in off-line games: -->
+    <string-array name="msg_offline_opponents_array">
+        <item>null</item>
+        <item>белые</item>
+        <item>чёрные</item>
+    </string-array>
+    <!-- An array with opponents names in AI games: -->
+    <string-array name="msg_ai_opponents_array">
+        <item>null</item>
+        <item>Пользователь</item>
+        <item>Бот</item>
+    </string-array>
+    <!-- An array with opponents names in AI games, two bots: -->
+    <string-array name="msg_two_ai_opponents_array">
+        <item>null</item>
+        <item>Бот 1</item>
+        <item>Бот 2</item>
+    </string-array>
+    <string-array name="msg_win_types_array">
+        <item>Null</item>
+        <item>Одно очко</item>
+        <item>Два очка – &lt;b>марс&lt;/b></item>
+        <item>Три очка – &lt;b>домашний марс&lt;/b></item>
+        <item>Четыре очка – двойной марс&lt;b>&lt;/b></item>
+    </string-array>
+
+    <string name="msg_winner">%1$s победил %2$s!</string>
+    <string name="msg_winner_in_local_game">%1$s победили %2$s!</string>
+
+    <!-- String for in_app_billing, Premium version: -->
+    <string name="bt_premium">Премиум…</string>
+    <string name="premium_version_alert_title">Премиум версия</string>
+    <string name="non_premium_version_alert_message">Если Вы хотите пользоваться этим приложением без рекламы и получить больше возможностей, Вы можете купить премиум версию JustGammon.\nВы можете купить премиум версию за %1$s, заплатив с Вашей карты в Play маркете, нажав кнопку купить сейчас в этом диалоге\nВы также можете получить премиум версию, если введёте код активации, полученный от разработчика. Вы можете купить этот код, зайдя на сайт android.pontes.ro и ввести его, нажав кнопку ввести код, которая находится в этом диалоге.\nВ любом случае, премиум версия будет у Вас всегда, даже после будущих обновлений игры.</string>
+    <string name="premium_version_alert_message">Вы только что получили премиум версию, благодарим Вас за интерес к этой игре.</string>
+    <string name="bt_buy_premium">Купить сейчас!</string>
+    <string name="bt_enter_code_premium">Ввести код!</string>
+    <string name="enter_code_title">Код активации</string>
+    <string name="enter_code_message">Введите ниже в поле ввода код активации для аккаунта %1$s, и нажмите кнопку продолжить, чтобы получить премиум версию.</string>
+    <string name="enter_code_hint">Напишите здесь восемь символов…</string>
+    <string name="enter_code_wrong">Код активации, который Вы ввели, неправильный.\nПожалуйста, попробуйте снова.…</string>
+    <string name="title_activity_premium_version">Премиум версия</string>
+    <string name="activity_premium_message">Поздравляем!\nВаша копия JustGammon была успешно обновлена до премиум версии на этом устройстве.\nРеклама больше не будет появляться.\nБлагодарим за интерес к этой игре.</string>
+
+    <!-- Strings for manager alert: -->
+    <string name="manager_title">Игровые настройки</string>
+    <string name="bt_close_manager">Закрыть игровые настройки</string>
+    <string name="tv_game_types_title_message">Выберите тип игр:</string>
+    <string name="tv_game_types_note_message">Примечание, все настройки менеджера сохраняются автоматически.</string>
+    <string name="sm_game_type_1">Локальные</string>
+    <string name="mng_cbt_turn_perspective_automatically">Автоматически переворачивать доску в локальных играх</string>
+    <string name="mng_cbt_turn_perspective_automatically_android_tv">Автоматически переворачивать доску на Android TV в локальных играх</string>
+    <string name="sm_game_type_2">С ботом</string>
+    <string name="tv_game_type_settings_title_1">Настройки локальных игр (два человека на одном устройстве)</string>
+    <string name="tv_game_type_settings_title_2">Настройки игр против бота</string>
+    <string name="tv_choose_difficulty_level">Выберите уровень сложности:</string>
+    <string name="mng_difficulty_level_1">Лёгкий (уровень 1)</string>
+    <string name="mng_difficulty_level_2">Сложный (уровень два)</string>
+    <string name="mng_difficulty_level_3">Трудный (уровень 3 – требует много времени для бота)</string>
+    <string name="mng_current_nickname">Ваш текущий ник в онлайн играх и в играх против бота &lt;b>%1$s&lt;/b>.&lt;br>Вы можете изменить его, нажав на кнопку изменить ник:</string>
+    <string name="mng_bt_change_nickname">Изменить ник…</string>
+    <string name="mng_nickname_title">Ник</string>
+    <string name="mng_local_nickname_caption">Введите Ваш ник, который будет во всех играх, кроме локальных игр, ниже:</string>
+    <string name="mng_local_nickname_hint">Напишите здесь минимум три, максимум двадцать символов…</string>
+    <string name="mng_wrong_local_nickname">Ник должен начинаться с большой буквы и должен содержать минимум три, максимум двадцать символов (буквы и/или цифры и может содержать один пробел).</string>
+    <string name="mng_bt_change_showing_moves">Изменить интервал отображения ходов бота…</string>
+    <string name="mng_showing_interval_title">Отображать ходы бота</string>
+    <string name="mng_change_showing_moves_caption">Выберите интервал отображения ходов бота, или выберите не показывать ходы бота:</string>
+    <string name="mng_bt_reset_score">Обнулить очки</string>
+    <string name="mng_reset_score_title">Обнулить очки</string>
+    <string name="mng_reset_score_body_gt_1">Вы действительно хотите обнулить очки в локальной игре (Два человека на одном устройстве)?</string>
+    <string name="mng_reset_score_body_gt_2">Вы действительно хотите обнулить очки в игре против бота?</string>
+    <string name="sm_game_type_3">Онлайн</string>
+
+    <string-array name="moves_interval_array">
+        <item>Не показывать ходы бота</item>
+        <item>Пол секунды</item>
+        <item>Одна секунда</item>
+        <item>Полторы секунды</item>
+        <item>Две секунды</item>
+        <item>Две с половиной секунды</item>
+        <item>Три секунды</item>
+    </string-array>
+
+    <string name="mng_current_moves_interval">Текущая настройка отображения ходов бота: &lt;b>%1$s&lt;/b></string>
+
+    <!-- Strings for statistics from main menu: -->
+    <string name="bt_close_statistics">Закрыть статистику</string>
+    <string name="statistics_title">Статистика</string>
+    <string name="stats_intro">Здесь отображается некоторая статистика после завершения очередной игры&lt;br> &lt;i>(%1$s)&lt;/i>:</string>
+    <string name="stats_no_records_found">Ещё не было сыграно не одной игры</string>
+    <string name="stats_no_stats_available_yet">Невозможно показать статистику, пока не сыграно не одной игры.</string>
+    <string name="stats_games_played">Количество сыгранных игр: &lt;b>%1$d&lt;/b>&lt;br> - завершённых – %2$d, завершённых до того, когда результат будет известен – %3$d;</string>
+    <string name="stats_games_by_type">Игры по типу:&lt;br> - локальные – %1$d, против бота – %2$d, между ботами - %3$d;</string>
+    <!-- <string name="stats_games_by_type">Игры по типу:&lt;br> - локальные – %1$d, против бота – %2$d, онлайн – %3$d, по вайфай – %4$d, по блютуз – %5$d;</string> -->
+    <string name="stats_games_by_level">Игры против бота по уровню сложности:&lt;br> - Лёгкий – %1$d, Сложный – %2$d;</string>
+    <string name="stats_games_by_win_type">Игры по виду победы:&lt;br> - Одно очко – %1$d (то есть %2$.2f%%);&lt;br> - Марс – %3$d (То есть %4$.2f%%);&lt;br> - Домашний марс – %5$d (то есть %6$.2f%%);&lt;br> - Двойной марс – %7$d (то есть %8$.2f%%);</string>
+    <string name="stats_won_and_lost_games_in_ai">В играх против бота:&lt;br> - Вы выигрывали %1$d (то есть %2$.2f%%);&lt;br> - Вы проигрывали %3$d (то есть %4$.2f%%);</string>
+    <!-- <string name="stats_won_and_lost_games_in_ai">В онлайн играх:&lt;br> - Вы выигрывали %1$d (то есть %2$.2f%%);&lt;br> - Вы проигрывали %3$d (то есть %4$.2f%%)</string> -->
+    <string name="stats_won_by_color_games_in_local">В локальных играх:&lt;br> - Белые выигрывали %1$d (то есть %2$.2f%%);&lt;br> - Чёрные выигрывали %3$d (то есть %4$.2f%%);</string>
+    <!-- <string name="stats_won_and_lost_games_in_online">В онлайн играх:&lt;br> - Вы выигрывали %1$d (то есть %2$.2f%%);&lt;br> - Вы проигрывали %3$d (то есть %4$.2f%%);</string> -->
+    <!-- <string name="stats_won_and_lost_games_in_wifi">В играх по вайфай:&lt;br> - Вы выигрывали %1$d (то есть %2$.2f%%);&lt;br> - Вы проигрывали %3$d (то есть %4$.2f%%);</string> -->
+    <!-- <string name="stats_won_and_lost_games_in_bluetooth">В играх по блютуз:&lt;br> - Вы выигрывали %1$d (то есть %2$.2f%%);&lt;br> - Вы проигрывали %3$d (то есть %4$.2f%%);</string> -->
+    <string name="stats_duration_as_string">%1$s, %2$s, %3$s и %4$s</string>
+    <string name="stats_total_duration">Общее время игры в нарды:&lt;br>&lt;i>%1$s&lt;/i>;</string>
+    <string name="stats_minutes_and_seconds">%1$s:%2$s</string>
+    <string name="stats_average_duration">Средняя продолжительность партии в минутах и секундах: &lt;i>%1$s&lt;/i>;</string>
+    <string name="stats_dice_rolls">Общее количество бросков зар: %1$d;</string>
+    <string name="stats_dice_average">Среднее значение на зарах во всех играх: %1$.2f;</string>
+    <string name="stats_doubles_average">Среднее значение дублей во всех играх: %1$.2f;</string>
+    <string name="stats_captures_average">Среднее количество сбиваний шашек: %1$.2f;</string>
+
+    <plurals name="plural_days">
+        <item quantity="one">%d день</item>
+        <item quantity="other">%d дня</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+    <plurals name="plural_hours">
+        <item quantity="one">%d час</item>
+        <item quantity="other">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="plural_minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="other">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="plural_seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="other">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+
+    <!-- Strings for game statistics: -->
+    <string name="sg_dialog_title">Игровая статистика и информация</string>
+    <string name="sg_bt_close_statistics">Закрыть игровую статистику и информацию</string>
+    <string name="sg_introduction">Информация и статистика по текущей игре</string>
+    <string name="sg_no_stats_available">Здесь отображается информация, если игра начата.</string>
+    <!-- A plurals resource to say the number of playable checkers: -->
+    <plurals name="plural_available_moves">
+        <item quantity="one">Возможен только %d вариант перемещения шашки;</item>
+        <item quantity="other">Возможно только %d варианта перемещения шашек;</item>
+        <item quantity="many">возможны только %d вариантов перемещения шашек;</item>
+    </plurals>
+
+    <string name="sg_time_elapsed">Затраченное время: %1$s</string>
+    <string name="sg_time_elapsed_with_percentages">%1$s (Белые – %2$d%%, Чёрные – %3$d%%)</string>
+    <string name="sg_checkers_vulnerable">Количество одиночных шашек:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_dice_points_to_finish">Минимальная сумма очков, которые должны выпасть на зарах, чтобы выиграть:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_chances_of_winning">Вероятность победы:&lt;br>у Белых – %1$d%%, у Чёрных – %2$d%%;</string>
+    <string name="sg_efficiency">Эффективность использования зар:&lt;br>у белых – %1$d%%, у чёрных – %2$d%%;</string>
+    <string name="sg_checkers_in_inner_boards">Количество шашек в своём доме:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_checkers_on_the_bars">Количество шашек на баре:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_checkers_removed">Количество снятых шашек:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_dice_throws">Количество бросков зар:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_dice_doubles">Количество дублей:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_dice_total_points">Сумма очков, выпавших на зарах в этой игре:&lt;br>у белых – %1$d, у чёрных – %2$d;</string>
+    <string name="sg_dice_average">Среднее значение на зарах:&lt;br>у белых – %1$.2f, у чёрных – %2$.2f;</string>
+    <string name="sg_number_of_captures">Количество сбиваний шашек:&lt;br>белыми – %1$d, чёрными – %2$d;</string>
+
+    <!-- More options, the right bottom corner button opens a context menu: -->
+    <string name="cm_title">Дополнительные возможности</string>
+    <string name="cm_abandon">Сдаться в текущей партии</string>
+    <string name="cm_open">Восстановить сохранённую партию</string>
+    <string name="cm_save">Сохранить партию</string>
+    <string name="cm_help">Прочитать справку</string>
+    <string name="cm_rate">Оценить приложение</string>
+
+    <!-- Abandon strings: -->
+    <string name="title_abandon">Сдаться</string>
+    <string name="body_abandon_question">Вы действительно хотите сдаться в этой партии?</string>
+    <string name="abandon_not_your_turn">Вы можете сдаться только когда Ваш ход.\nПожалуйста подождите немного и попробуйте снова…</string>
+    <string name="abandon_not_enough_rolls">Ещё рано сдаваться…\nПожалуйста попробуйте снова, если захотите, после нескольких ходов…</string>
+    <string name="abandon_message">%1$s сдался.</string>
+    <string name="abandon_message_in_local_game">%1$s сдались.</string>
+
+    <!-- Games history strings: -->
+    <string name="bt_show_last_games">Показать последние игры…</string>
+    <string name="history_last_games_title">Последние игры</string>
+    <string name="history_bt_close_last_games">Закрыть последние игры</string>
+    <string name="history_games_not_found">Здесь появятся последние игры.</string>
+    <string name="history_show_history">История…</string>
+    <string name="history_show_statistics">Статистика…</string>
+    <string name="history_a_game_in_list">Игра %1$s, &lt;b>%2$s&lt;/b>, %3$s &lt;i>(%4$s)&lt;/i></string>
+
+    <string-array name="array_type_of_finish">
+        <item>завершена</item>
+        <item>Завершена до того, когда результат будет известен, при двойном нажатии кнопки назад</item>
+        <item>Завершена до того, когда результат будет известен</item>
+    </string-array>
+    <string-array name="array_type_of_game">
+        <item>два бота</item>
+        <item>локальная</item>
+        <item>Против бота</item>
+        <item>Он-лайн</item>
+        <item>По блютуз</item>
+        <item>По вайфай</item>
+    </string-array>
+    <string-array name="array_who_won">
+        <item>Вы проиграли</item>
+        <item>Вы выиграли</item>
+    </string-array>
+    <string-array name="array_who_won_color">
+        <item>null</item>
+        <item>Белые выиграли</item>
+        <item>Чёрные выиграли</item>
+    </string-array>
+
+    <string name="history_next_games">Показать более старые игры -></string>
+
+    <!-- Strings added in version 1.1: -->
+    <string name="sm_cbt_announce_all_in_home_boards">Сообщать, когда все шашки в доме</string>
+    <string name="msg_all_in_home_board">У %1$s ввёл все шашки в доме.</string>
+    <string name="msg_all_in_home_board_local_games">%1$s ввели все шашки в дом.</string>
+    <string name="msg_say_vulnerable_checkers">Позиции одиночных шашек:&lt;br>белые: %1$s;&lt;br>чёрные: %2$s.</string>
+    <string name="msg_nonexistent_vulnerable_checkers">одиночных шашек нет</string>
+
+    <!-- Strings for two bots games: -->
+    <string name="sm_game_type_0">Между ботами</string>
+    <string name="tv_game_type_settings_title_0">Настройки игр между ботами</string>
+    <string name="msg_not_not_available_in_two_bots">Вы не можете участвовать в играх против бота…</string>
+    <string name="mng_reset_score_body_gt_0">Вы действительно хотите обнулить очки в игре против бота?</string>
+
+    <!-- String in settings management: -->
+    <string name="sm_chb_accessible_checkers">Использовать зелёные и красные шашки (удобно для слабовидящих пользователей)</string>
+    <!-- Strings in visual settings: -->
+    <string name="sm_tv_choose_orientation">Выберите ориентацию главного окна программы</string>
+    <string name="sm_rb_orientation_0">Автоматически подбирать ориентацию</string>
+    <string name="sm_rb_orientation_1">Портретная</string>
+    <string name="sm_rb_orientation_2">Альбомная</string>
+
+    <!-- Strings for what's new or other important information for last version: -->
+    <string name="whatsnew_title">Что нового</string>
+    <string name="chk_got_it">Не показывать этот диалог снова, до выхода следующей версии!</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llGameTypesSettings_2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/textInSettingsHeadingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_game_type_settings_title_2" />
+
+    <Button
+        android:id="@+id/btResetScoreGT2"
+        style="@style/style_buttons_in_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToGameMode"
+        android:text="@string/mng_bt_reset_score" />
+
+    <TextView
+        android:id="@+id/tvCurrentNickname"
+        style="@style/textInSettingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ellipsis" />
+
+    <Button
+        android:id="@+id/btChangeNickname"
+        style="@style/style_buttons_in_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToGameMode"
+        android:text="@string/mng_bt_change_nickname" />
+
+    <!-- Showing AI moves zone: -->
+
+    <TextView
+        android:id="@+id/tvCurrentShowingMoves"
+        style="@style/textInSettingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ellipsis" />
+
+    <Button
+        android:id="@+id/btChangeShowingMoves"
+        style="@style/style_buttons_in_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToGameMode"
+        android:text="@string/mng_bt_change_showing_moves" />
+
+    <!-- Difficulty level zone: -->
+
+    <TextView
+        style="@style/textInSettingsHeadingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_choose_difficulty_level" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rbDifficultyLevel1"
+            style="@style/style_radio_buttons_in_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonManagerClicked"
+            android:text="@string/mng_difficulty_level_1" />
+
+        <RadioButton
+            android:id="@+id/rbDifficultyLevel2"
+            style="@style/style_radio_buttons_in_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonManagerClicked"
+            android:text="@string/mng_difficulty_level_2" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/textInSettingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_game_types_note_message" />
+
+</LinearLayout>

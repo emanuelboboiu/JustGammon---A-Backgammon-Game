@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1204"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- This layout is above the board and contains things instead the advertise: -->
+
+        <LinearLayout
+            android:id="@+id/llTopAd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights" >
+
+            <ImageView
+                android:id="@+id/controlInsteadAd"
+                style="@style/controlInsteadAdStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/premium_image"
+                android:contentDescription="@string/tv_premium_version"
+                android:nextFocusDown="@+id/ivB13"
+                android:nextFocusLeft="@+id/ivB13"
+                android:nextFocusRight="@+id/tvText"
+                android:nextFocusUp="@+id/controlInsteadAd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTopRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvText"
+                style="@style/textInGameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/text_zone_background_premium"
+                android:nextFocusDown="@+id/ivB24"
+                android:nextFocusLeft="@+id/ivB18"
+                android:nextFocusRight="@+id/tvText"
+                android:nextFocusUp="@+id/tvText"
+                android:onClick="textZoneClicked"
+                android:text="@string/welcome_message" />
+        </LinearLayout>
+        <!-- End of top LinearLayout. -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMainBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8796"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llBorderAboveBoard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01578"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights" >
+
+            <!-- This layout is empty above the board, just a border. -->
+        </LinearLayout>
+        <!-- Include here the board with margins left and right: -->
+
+        <include layout="@layout/ll_board" />
+
+        <LinearLayout
+            android:id="@+id/llBorderBelowBoard"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.01578"
+            android:orientation="horizontal" >
+
+            <!-- This layout is empty below the board. -->
+        </LinearLayout>
+        <!-- End of the llMainBottom layout. -->
+    </LinearLayout>
+
+</LinearLayout>

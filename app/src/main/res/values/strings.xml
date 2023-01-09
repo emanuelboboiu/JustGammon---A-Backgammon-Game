@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The next string must contain the current locale language in two letters, in latin alphabet: -->
+    <string name="cur_lang">en</string>
+    <string name="app_name">JustGammon</string>
+    <string name="title_activity_game">JustGammon</string>
+    <string name="tv_premium_version">JustGammon Premium</string>
+    <string name="welcome_message">Welcome to JustGammon!</string>
+    <!-- The items in main menu must be one word in length, the space available is limited: -->
+    <string name="bt_start_game">Start</string>
+    <string name="bt_continue_game">Continue</string>
+    <string name="bt_settings">Settings…</string>
+    <string name="bt_about">About…</string>
+    <string name="bt_help">Read the Help…</string>
+    <string name="bt_game_mode">Manager…</string>
+    <string name="bt_statistics">Statistics…</string>
+    <string name="bt_ok">OK</string>
+    <string name="bt_close">Close</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_save">Save</string>
+    <string name="bt_yes">Yes</string>
+    <string name="bt_no">No</string>
+    <string name="bt_continue">Continue</string>
+
+    <!-- Information dialog strings: -->
+    <string name="bt_information">Information…</string>
+    <string name="info_title">Information</string>
+    <string name="bt_close_information">Close information</string>
+    <string name="bt_news">News…</string>
+    <string name="news_title">News</string>
+    <string name="bt_close_news">Close news</string>
+    <string name="bt_changelog">Changelog…</string>
+    <string name="changelog_title">Changelog</string>
+    <string name="bt_close_changelog">Close changelog</string>
+    <string name="bt_privacy">Read the Privacy Policy…</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="bt_close_privacy">Close privacy policy</string>
+    <string name="bt_online_statistics">On-line statistics…</string>
+    <string name="online_statistics_title">On-line Statistics</string>
+    <string name="bt_close_online_statistics">Close on-line statistics</string>
+    <string name="no_internet_for_webviews">You are not connected to the Internet.\nThis information is loaded from our site.\nPlease connect to the Internet and try again…</string>
+
+    <!-- Help strings -->
+    <string name="help_alert_title">Help and Information</string>
+    <string name="bt_close_help">Close help</string>
+
+    <!-- Dice strings: -->
+    <string name="dice_status">%1$d, %2$d</string>
+    <string name="dice_blank">A die not rolled yet</string>
+    <string name="cd_die_face_available">%1$d, die not used</string>
+    <string name="cd_die_face_used">%1$d, die used</string>
+    <string name="cd_die_face_used_half">%1$d, die used in a half</string>
+
+    <!-- A plurals resource to announce remaining moves to do for current dice: -->
+    <plurals name="cd_number_of_remaining_moves">
+        <item quantity="one">There is %d move left to do.</item>
+        <item quantity="other">There are %d remaining moves.</item>
+    </plurals>
+
+    <!-- Strings for date: -->
+    <string name="today">today</string>
+    <string name="yesterday">yesterday</string>
+    <!-- The next format date can be seen formated in About alert: -->
+    <string name="date_format">%1$s, %2$s %3$s %4$s, %5$s:%6$s</string>
+    <string name="msg_time">It is %1$s</string>
+
+    <!-- About dialog: -->
+    <string name="about">About</string>
+    <string name="about_title">About JustGammon</string>
+    <string name="app_version">JustGammon %1$s</string>
+    <string name="app_release_date">The 1.0 version date of release: %1$s</string>
+    <string name="app_last_update">The date of this release: %1$s</string>
+    <string name="app_creator">Programmed by Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Phone: +40740203043</string>
+    <string name="email_address">E-mail: contact@justgammon.com</string>
+    <string name="web_address">Web: www.justgammon.com</string>
+    <string name="app_credits1">Design created by Iulian Duma</string>
+    <string name="app_credits2">Beta testing: %1$s</string>
+    <!-- Next string will be replaced with your language and your name, written in your language: -->
+    <string name="app_credits3">English translation: Emanuel Boboiu</string>
+    <string name="mnu_rate">Rate this game!</string>
+    <string name="title_rate_app">Rate the game</string>
+    <string name="body_rate_app">If you enjoy this game, please rate it in Google Play.\nMore stars help us to be one of the most used backgammon games in Google Play Store and also encourage us to continue working for a better experience using this game.</string>
+    <string name="bt_rate">Rate now!</string>
+    <string name="bt_not_now">Not now!</string>
+
+    <!-- Information, error and warning messages: -->
+    <string name="information">Information</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="no_connection_available">We detect there is no a connection available.\n Please connect your device to the Internet and try again.</string>
+
+    <!-- For content descriptions: -->
+    <string name="cd_bt_play">Start a new game</string>
+    <string name="cd_bt_pause">Pause this game</string>
+    <string name="cd_bt_resume">Resume this game</string>
+    <string name="cd_bt_statistics">Show game statistics and information</string>
+    <string name="cd_bt_options">More options</string>
+    <string name="cd_position_status">%1$s %2$s.</string>
+    <string name="cd_empty">Empty</string>
+    <string name="cd_almost_taken">%1$s. A checker here is in hand.</string>
+    <string name="cd_hint_can_put">%1$s. The checker can be put here.</string>
+    <string name="cd_hint_can_enter">%1$s. Checker can re-enter here.</string>
+
+    <!-- A plurals resource for white pieces: -->
+    <plurals name="cd_number_of_white_pulls">
+        <item quantity="one">%d white</item>
+        <item quantity="other">%d whites</item>
+    </plurals>
+    <!-- A plurals resource for black pieces: -->
+    <plurals name="cd_number_of_black_pulls">
+        <item quantity="one">%d black</item>
+        <item quantity="other">%d blacks</item>
+    </plurals>
+
+    <string-array name="colors_array">
+        <item>Empty</item>
+        <item>white</item>
+        <item>black</item>
+    </string-array>
+
+    <string name="cd_border">Border</string>
+    <string name="cd_border_status">%1$s %2$s.</string>
+    <!-- An array with names of the borders, 6 items: -->
+    <string-array name="borders_names_array">
+        <item>Lower right border:</item>
+        <item>Upper right border:</item>
+        <item>Lower middle border:</item>
+        <item>Upper middle border:</item>
+        <item>Lower left border</item>
+        <item>Upper left border</item>
+    </string-array>
+
+    <!-- Strings in settings management: -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="close_settings">Close settings</string>
+    <string name="bt_reset_to_defaults">Reset to default settings…</string>
+    <string name="title_default_settings">Default Settings</string>
+    <string name="body_default_settings">Do you want to reset the game?\nAll the settings will be set to their default values.\nIf you bought the Premium Version via Google Play Store, the game will be promoted to Premium at its next load.\nYou can also enter the code to promote manually the game to Premium.</string>
+    <string name="sm_bt_general_settings">General…</string>
+    <string name="sm_bt_close_general_settings">Close general settings</string>
+    <string name="sm_heading_general_settings">General Settings</string>
+    <string name="sm_enable_vibration">Enable vibration effects for various actions</string>
+    <string name="sm_enable_screen_awake">Keep screen awake during a match</string>
+    <string name="sm_enable_clock_cuckoo">Enable automatic time announcement</string>
+    <string name="sm_enable_save_history">Enable automatic save of game history</string>
+    <string name="sm_bt_sounds_settings">Sounds…</string>
+    <string name="sm_bt_close_sounds_settings">Close sounds settings</string>
+    <string name="sm_heading_sounds_settings">Sounds Settings</string>
+    <string name="sm_enable_sounds">Enable sound effects for various actions</string>
+    <string name="sm_enable_music">Enable sound ambiance during the game</string>
+    <string name="sm_sound_volume">Choose the percentage of media volume for sounds volume:</string>
+    <string name="sm_enable_background_menu">Enable background music in main menu</string>
+
+    <!-- Name of sound to be checked or unchecked: -->
+    <string name="sm_heading_sounds_choose">Check the sounds you want during the game:</string>
+
+    <string-array name="sounds_array">
+        <item>null</item>
+        <item>Arrange board gradually</item>
+        <item>Cuckoo clock</item>
+        <item>Current position</item>
+        <item>Borders</item>
+        <item>Nothing can be done</item>
+        <item>Dice throws</item>
+        <item>Take checker</item>
+        <item>Put checker</item>
+        <item>Forbidden position or action</item>
+        <item>Hit checker</item>
+        <item>Dice first roll</item>
+        <item>Game paused</item>
+        <item>Game resumed</item>
+        <item>Is your turn</item>
+        <item>The opponent is thinking</item>
+        <item>Close the board</item>
+        <item>Clicks in settings</item>
+        <item>Close windows in settings</item>
+        <item>Win one point</item>
+        <item>Win a Gammon</item>
+        <item>Win a Backgammon</item>
+        <item>Win a double Backgammon</item>
+        <item>Lose one point</item>
+        <item>Lose a Gammon</item>
+        <item>Lose a Backgammon</item>
+        <item>Lose a double Backgammon</item>
+        <item>All the checkers came into home board</item>
+        <item>Arrange board instantly</item>
+    </string-array>
+
+    <string name="sm_bt_accessibility_settings">Accessibility…</string>
+    <string name="sm_bt_close_accessibility_settings">Close accessibility settings</string>
+    <string name="sm_heading_accessibility_settings">Accessibility Settings</string>
+    <string name="sm_speak_type">Verbalization of the actions during the game:</string>
+    <string name="sm_speak_type_0">No verbalization of actions</string>
+    <string name="sm_speak_type_1">Verbalize via live region (available for Android 4.4 or newer)</string>
+    <string name="sm_speak_type_2">Verbalize directly through TTS</string>
+    <string name="sm_speak_type_3">Automatic detection of the suitable verbalization mode</string>
+    <string name="sm_bt_tts_settings">TTS Settings (useful if verbalisation is via TTS)</string>
+    <string name="sm_heading_tts_settings">TTS Settings</string>
+    <string name="sm_bt_close_tts_settings">Cancel!</string>
+    <string name="sm_bt_save_tts_settings">Save!</string>
+    <string name="sm_board_notation">Board positions notation:</string>
+    <string name="sm_board_notation_1">Positions from 1 to 12, sides A and B</string>
+    <string name="sm_board_notation_2">Positions from 1 to 24</string>
+    <string name="sm_board_notation_0">Don\'t label the positions</string>
+    <string name="sm_tv_note_hint_content_description">Note:\nDisabling hints for taken checker, where to put and/or where to re-enter in Visual settings, will disable also the content description hints for screen readers.</string>
+    <string name="sm_bt_language_settings">Language…</string>
+    <string name="sm_bt_close_language_settings">Close language settings</string>
+    <string name="sm_heading_language_settings">Language Settings</string>
+    <string name="sm_details_language">It is possible to choose another available language than the device\'s default one.\nIf there is a change from other language to the default one, it is necessary to restart the application.</string>
+    <string name="sm_lang_default">Device language</string>
+    <string name="sm_lang_english">English</string>
+    <!-- For other languages than English, first is the language name in that language, after between parenthesis the English name of that language: -->
+    <string name="sm_lang_romanian">Română (Romanian)</string>
+    <string name="sm_lang_russian">русский (Russian)</string>
+
+    <!-- Strings in TTS settings alert: -->
+    <string name="tv_engines_initial_message">A list of available TTS engines will appear here…</string>
+    <!-- A plurals resource for results: -->
+    <plurals name="tv_number_of_engines">
+        <item quantity="one">Click the only %d text to speech engine available:</item>
+        <item quantity="other">Choose one of these %d TTS engines available:</item>
+    </plurals>
+
+    <string name="tv_voices_initial_message">A list of available voices and languages will appear here after you choose one engine…</string>
+    <string name="error_after_choosing_engine">The chosen TTS engine cannot be load.\nThere is an unknown error.\nPlease try another one.</string>
+    <string name="tv_choose_a_voice">Choose %1$s in &lt;i>%2$s&lt;/i> engine for more details:</string>
+    <!-- A plurals resource for %1$s in string above: -->
+    <plurals name="tv_number_of_voices">
+        <item quantity="one">the only %d voice available</item>
+        <item quantity="other">one voice from these %d available</item>
+    </plurals>
+
+    <string name="tv_no_voices_available">No voices were detected for this Text to Speech engine.\nPlease try another engine from the list.</string>
+    <string name="one_voice_in_list">%1$s &lt;b>%2$s&lt;/b> &lt;i>%3$s&lt;/i> &lt;i>%4$s&lt;/i></string>
+    <string name="a_voice_chosen_to_check">&lt;b>%1$s (%2$s)&lt;/b></string>
+    <string name="tv_set_tts_rate">Voice rate:</string>
+    <string name="tv_set_tts_pitch">Voice pitch:</string>
+    <string name="bt_tts_sample">Listen to a sample in game language!</string>
+    <string name="bt_tts_sample2">Listen to a sample in TTS language!</string>
+    <string name="sample_tts_text">Hi! I can read many messages when you play this game. If you like my voice, choose me clicking the Save button. Thanks!</string>
+    <string name="the_sample">The text</string>
+    <string name="the_sample_message">The text spoken clicking short the &lt;b>%1$s&lt;/b> button is:&lt;br>&lt;i>%2$s&lt;/i></string>
+
+    <!-- Visual settings, animations: -->
+    <string name="sm_bt_visual_settings">Visual…</string>
+    <string name="sm_bt_close_visual_settings">Close visual settings</string>
+    <string name="sm_heading_visual_settings">Visual Settings</string>
+    <string name="sm_animations_heading">Animations for actions and hints</string>
+    <string name="sm_cbt_anim_hint_where_put">Hint for valid positions to move a checker</string>
+    <string name="sm_cbt_anim_hint_where_enter">Hint for valid positions to re-enter from the bar</string>
+    <string name="sm_cbt_anim_hint_where_taken">Indicate the position from which a piece was taken</string>
+    <string name="sm_cbt_show_arrange_board">Show board arranging effect</string>
+
+    <!-- Reset to defaults strings: -->
+    <string name="tv_reset_tts_settings">Click the next button to reset all existing TTS settings for this game.\nMessages will be read using the general TTS settings, the ones used by the screen reader.</string>
+    <string name="sm_bt_reset_tts_settings">Reset TTS settings!</string>
+    <string name="tts_set_default_toast">The TTS settings were reset successfully to default values.</string>
+
+    <!-- Strings for game history: -->
+    <string name="game_history_title">Messages history</string>
+    <string name="bt_close_history">Close messages history</string>
+    <string name="history_number_of_messages">&lt;i>The history contains &lt;b>%1$s&lt;/b>.&lt;/i></string>
+    <!-- A plurals resource for number of messages in history: -->
+    <plurals name="msg_number_of_messages">
+        <item quantity="one">%d message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+
+    <!-- Various messages during the game, these are shown on the text zone: -->
+    <string name="msg_click_again_back">Press Back again to close the game!</string>
+    <string name="msg_please_wait">Please wait…</string>
+    <string name="msg_wait_opponent_turn">Please wait…\nIt\'s opponent\'s turn…</string>
+    <string name="msg_game_is_paused">The game is paused…</string>
+    <string name="msg_setting_up_board">Setting up the board…</string>
+    <string name="msg_board_arranged_initially">Board set for a new game</string>
+    <string name="msg_rolling_first_dice">Throwing first die to decide who will start to move…</string>
+    <string name="msg_first_dice_not_decided">Dice the same, throw again to decide who\'s going to start!</string>
+    <string name="msg_rolling_dice">Throwing dice…</string>
+    <string name="msg_rolled_first_dice">%1$s rolled &lt;b>%2$d&lt;/b>, %3$s &lt;b>%4$d&lt;/b></string>
+    <string name="msg_rolled_first_dice_in_local_game">%1$s rolled &lt;b>%2$d&lt;/b>, %3$s &lt;b>%4$d&lt;/b></string>
+    <string name="msg_someone_rolled_dice">%1$s rolled &lt;b>%2$d&lt;/b>, &lt;b>%3$d&lt;/b></string>
+    <string name="msg_someone_rolled_dice_in_local_game">%1$s rolled &lt;b>%2$d&lt;/b>, &lt;b>%3$d&lt;/b></string>
+    <string name="msg_taken_from">Taken from %1$s</string>
+    <string name="msg_put_back">Put back to %1$s</string>
+    <string name="msg_put_to">Put to %1$s</string>
+    <string name="msg_put_and_hit">Put to %1$s and hit</string>
+    <string name="msg_enter_to">Re-entered to %1$s</string>
+    <string name="msg_enter_and_hit">Re-entered to %1$s and hit</string>
+    <string name="msg_removed_from">Removed from %1$s</string>
+    <string name="msg_impossible_move">&lt;b>%1$s&lt;/b> can not do anything…</string>
+    <string name="msg_impossible_move_in_local_game">&lt;b>%1$s&lt;/b> can not do anything…</string>
+    <string name="msg_nobody_must_move">There is no one\'s turn</string>
+    <string name="msg_it_is_turn">It is %1$s\'s turn</string>
+    <string name="msg_it_is_turn_in_local_game">It is %1$s\'s turn</string>
+    <!-- An array with opponents names in off-line games: -->
+    <string-array name="msg_offline_opponents_array">
+        <item>null</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+    <!-- An array with opponents names in AI games: -->
+    <string-array name="msg_ai_opponents_array">
+        <item>null</item>
+        <item>User</item>
+        <item>Bot</item>
+    </string-array>
+    <!-- An array with opponents names in AI games, two bots: -->
+    <string-array name="msg_two_ai_opponents_array">
+        <item>null</item>
+        <item>Bot1</item>
+        <item>Bot2</item>
+    </string-array>
+    <string-array name="msg_win_types_array">
+        <item>Null</item>
+        <item>one point</item>
+        <item>two points – &lt;b>gammon&lt;/b></item>
+        <item>three points – &lt;b>backgammon&lt;/b></item>
+        <item>four points – &lt;b>double backgammon&lt;/b></item>
+    </string-array>
+
+    <string name="msg_winner">%1$s won %2$s!</string>
+    <string name="msg_winner_in_local_game">%1$s won %2$s!</string>
+
+    <!-- String for in_app_billing, Premium version: -->
+    <string name="bt_premium">Premium…</string>
+    <string name="premium_version_alert_title">Premium Version</string>
+    <string name="non_premium_version_alert_message">If you want to remove the Google Ads and get more facilities, you can buy the Premium Version of JustGammon.\nYou can buy the Premium Version just for %1$s, paying with your card in Google Play pressing the Buy now button found in this dialog.\nYou can also upgrade to Premium Version if you have a Activation Code given by developer. You can buy such a code visiting www.justgammon.com and you can write it pressing the Enter code button found in this dialog.\nIn any case the Premium Version will be available for ever, also for future installs of the game.</string>
+    <string name="premium_version_alert_message">You already have the Premium Version, thanks for your interest in this game.</string>
+    <string name="bt_buy_premium">Buy now!</string>
+    <string name="bt_enter_code_premium">Enter code!</string>
+    <string name="register_by_code_unavailable">You can\'t promote to Premium Version using a registration code.</string>
+    <string name="enter_code_title">Activation Code</string>
+    <string name="enter_code_message">Fill in the edit field below the registration code for your unique ID %1$s, and press the Continue button to promote the game to Premium Version</string>
+    <string name="enter_code_hint">Write here the 8 characters…</string>
+    <string name="enter_code_wrong">The Activation Code you wrote is invalid.\nPlease try again…</string>
+    <string name="title_activity_premium_version">Premium Version</string>
+    <string name="activity_premium_message">Congratulations!\nYour copy of JustGammon was successfully promoted to the Premium Version on this device.\nThe ads won\'t appear anymore.\nThanks for your interest in this game.</string>
+
+    <!-- Strings for manager alert: -->
+    <string name="manager_title">Manager, Game Settings</string>
+    <string name="bt_close_manager">Close manager</string>
+    <string name="tv_game_types_title_message">Choose game type:</string>
+    <string name="tv_game_types_note_message">Note:\nAll the settings in manager are saved at clicks, no Save button is needed.</string>
+    <string name="sm_game_type_1">Local</string>
+    <string name="mng_cbt_turn_perspective_automatically">Automatically change the board\'s perspective in local games</string>
+    <string name="mng_cbt_turn_perspective_automatically_android_tv">Automatically change the board\'s perspective on the TV in local games</string>
+    <string name="sm_game_type_2">Bot AI</string>
+    <string name="tv_game_type_settings_title_1">Settings for local games (two on same device)</string>
+    <string name="tv_game_type_settings_title_2">Settings for games against Bot AI</string>
+    <string name="tv_choose_difficulty_level">Choose the difficulty level:</string>
+    <string name="mng_difficulty_level_1">Easy (level 1)</string>
+    <string name="mng_difficulty_level_2">Hard (level 2)</string>
+    <string name="mng_difficulty_level_3">Difficult (level 3 - takes a very long time)</string>
+    <string name="mng_current_nickname">Your current nickname in off-line games is &lt;b>%1$s&lt;/b>.&lt;br>You can cange it clicking the next button:</string>
+    <string name="mng_bt_change_nickname">Change your nickname…</string>
+    <string name="mng_nickname_title">Nickname</string>
+    <string name="mng_local_nickname_caption">Fill in the edit field below a new nickname you want to appear in games against Bot:</string>
+    <string name="mng_local_nickname_hint">Write here at least 3, maximum 20 characters…</string>
+    <string name="mng_wrong_local_nickname">The nickname must start with a capital letter and must contain minimum 3, maximum 20 letters and / or digits.</string>
+    <string name="mng_bt_change_showing_moves">Change how to display Bot\'s moves…</string>
+    <string name="mng_showing_interval_title">Displaying Bot Moves</string>
+    <string name="mng_change_showing_moves_caption">Choose the time interval between Bot\'s moves shown or choose not to show each move:</string>
+    <string name="mng_bt_reset_score">Reset the score to 0 – 0</string>
+    <string name="mng_reset_score_title">Reset score</string>
+    <string name="mng_reset_score_body_gt_1">Are you sure you want to reset the score to 0 – 0 in local games (two on same device)?</string>
+    <string name="mng_reset_score_body_gt_2">Are you sure you want to reset the score to 0 – 0 in games against Bot AI?</string>
+    <string name="sm_game_type_3">On-line</string>
+
+    <string-array name="moves_interval_array">
+        <item>Disable displaying each Bot move in turn</item>
+        <item>half a second</item>
+        <item>one second</item>
+        <item>one second and a half</item>
+        <item>two seconds</item>
+        <item>two seconds and a half</item>
+        <item>three seconds</item>
+    </string-array>
+
+    <string name="mng_current_moves_interval">The current setting for the interval between Bot\'s moves is: &lt;b>%1$s&lt;/b></string>
+
+    <!-- Strings for statistics from main menu: -->
+    <string name="bt_close_statistics">Close statistics</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="stats_intro">Here there are shown some statistics since first finished game&lt;br> &lt;i>(%1$s)&lt;/i>:</string>
+    <string name="stats_no_records_found">No game has been played yet</string>
+    <string name="stats_no_stats_available_yet">We can not display statistics, since you didn\'t play any game yet.</string>
+    <string name="stats_games_played">Number of games played: &lt;b>%1$d&lt;/b>&lt;br> - finished – %2$d, abandoned – %3$d;</string>
+    <string name="stats_games_by_type">Games by type:&lt;br> - local – %1$d, against Bot – %2$d, two Bots – %3$d;</string>
+    <string name="stats_games_by_level">Games played per difficulty level:&lt;br> - Easy – %1$d, Hard – %2$d;</string>
+    <string name="stats_games_by_win_type">Games by win types:&lt;br> - One point – %1$d (meaning %2$.2f%%);&lt;br> - Gammon – %3$d (meaning %4$.2f%%);&lt;br> - Backgammon – %5$d (meaning %6$.2f%%);&lt;br> - Double Backgammon – %7$d (meaning %8$.2f%%);</string>
+    <string name="stats_won_and_lost_games_in_ai">In games against Bot:&lt;br> - you won %1$d (meaning %2$.2f%%);&lt;br> - you lost %3$d (meaning %4$.2f%%);</string>
+    <string name="stats_won_by_color_games_in_local">In local games:&lt;br> - White won %1$d (meaning %2$.2f%%);&lt;br> - Black won %3$d (meaning %4$.2f%%);</string>
+    <string name="stats_duration_as_string">%1$s, %2$s, %3$s and %4$s;</string>
+    <string name="stats_total_duration">Total time spent playing JustGammon:&lt;br>&lt;i>%1$s&lt;/i>;</string>
+    <string name="stats_minutes_and_seconds">%1$s:%2$s</string>
+    <string name="stats_average_duration">Average duration of a game in minutes and seconds: &lt;i>%1$s&lt;/i>;</string>
+    <string name="stats_dice_rolls">Dice throws: %1$d;</string>
+    <string name="stats_dice_average">Average dice value: %1$.2f;</string>
+    <string name="stats_doubles_average">Average doubles per game: %1$.2f;</string>
+    <string name="stats_captures_average">Average catches per game: %1$.2f;</string>
+
+    <plurals name="plural_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="plural_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="plural_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="plural_seconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+    <!-- Strings for game statistics: -->
+    <string name="sg_dialog_title">Game Information</string>
+    <string name="sg_bt_close_statistics">Close information</string>
+    <string name="sg_introduction">Some information and statistics about current game</string>
+    <string name="sg_no_stats_available">The information here is available only if the game is started.</string>
+    <!-- A plurals resource to say the number of playable checkers: -->
+    <plurals name="plural_available_moves">
+        <item quantity="one">There is only %d possible move available at this moment;</item>
+        <item quantity="other">%d possible moves are available at this moment;</item>
+    </plurals>
+
+    <string name="sg_time_elapsed">Time elapsed: %1$s</string>
+    <string name="sg_time_elapsed_with_percentages">%1$s (White – %2$d%%, Black – %3$d%%)</string>
+    <string name="sg_checkers_vulnerable">Single checkers:&lt;br>whites – %1$d, blacks – %2$d;</string>
+    <string name="sg_dice_points_to_finish">Dice points to finish:&lt;br>White – %1$d, Black – %2$d;</string>
+    <string name="sg_chances_of_winning">Chances of winning:&lt;br>White – %1$d%%, Black – %2$d%%;</string>
+    <string name="sg_efficiency">Efficiency percentage:&lt;br>White – %1$d%%, Black – %2$d%%;</string>
+    <string name="sg_checkers_in_inner_boards">Checkers in home boards:&lt;br>whites – %1$d, blacks – %2$d;</string>
+    <string name="sg_checkers_on_the_bars">Checkers on the bar:&lt;br>whites – %1$d, blacks – %2$d;</string>
+    <string name="sg_checkers_removed">Checkers removed:&lt;br>whites – %1$d, blacks – %2$d;</string>
+    <string name="sg_dice_throws">Dice throws:&lt;br>White – %1$d, Black – %2$d;</string>
+    <string name="sg_dice_doubles">Dice doubles:&lt;br>White – %1$d, Black – %2$d;</string>
+    <string name="sg_dice_total_points">Dice total points:&lt;br>White – %1$d, Black – %2$d;</string>
+    <string name="sg_dice_average">Average dice:&lt;br>White – %1$.2f, Black – %2$.2f;</string>
+    <string name="sg_number_of_captures">Catches made:&lt;br>by White – %1$d, by Black – %2$d;</string>
+
+    <!-- More options, the right bottom corner button opens a context menu: -->
+    <string name="cm_title">Options Menu</string>
+    <string name="cm_abandon">Abandon current game</string>
+    <string name="cm_open">Open a saved game</string>
+    <string name="cm_save">Save current game</string>
+    <string name="cm_help">Read JustGammon Help</string>
+    <string name="cm_rate">Rate JustGammon</string>
+
+    <!-- Abandon strings: -->
+    <string name="title_abandon">Abandon</string>
+    <string name="body_abandon_question">Are you sure you want to abandon this game?</string>
+    <string name="abandon_not_your_turn">You can abandon a game when it\'s your turn.\nPlease wait a little and try again…</string>
+    <string name="abandon_not_enough_rolls">It is too early to abandon…\nPlease try again after a few other moves…</string>
+    <string name="abandon_message">%1$s abandoned.</string>
+    <string name="abandon_message_in_local_game">%1$s abandoned.</string>
+
+    <!-- Games history strings: -->
+    <string name="bt_show_last_games">View last played games…</string>
+    <string name="history_last_games_title">Last Played Games</string>
+    <string name="history_bt_close_last_games">Close last games</string>
+    <string name="history_games_not_found">Here will appear last played games.</string>
+    <string name="history_show_history">History…</string>
+    <string name="history_show_statistics">Statistics…</string>
+    <string name="history_a_game_in_list">Game %1$s, &lt;b>%2$s&lt;/b>, %3$s &lt;i>(%4$s)&lt;/i></string>
+
+    <string-array name="array_type_of_finish">
+        <item>finished</item>
+        <item>abandoned deliberately</item>
+        <item>abandoned forcefully</item>
+    </string-array>
+    <string-array name="array_type_of_game">
+        <item>two bots</item>
+        <item>local</item>
+        <item>Bot AI</item>
+        <item>on-line</item>
+        <item>Bluetooth</item>
+        <item>Wireless direct</item>
+    </string-array>
+    <string-array name="array_who_won">
+        <item>you lost</item>
+        <item>you won</item>
+    </string-array>
+    <string-array name="array_who_won_color">
+        <item>null</item>
+        <item>White won</item>
+        <item>Black won</item>
+    </string-array>
+
+    <string name="history_next_games">View older -></string>
+
+    <!-- Strings added in version 1.1: -->
+    <string name="sm_cbt_announce_all_in_home_boards">Announce when all checkers are in home board</string>
+    <string name="msg_all_in_home_board">%1$s brought all the checkers in home board.</string>
+    <string name="msg_all_in_home_board_local_games">%1$s brought all the checkers in home board.</string>
+    <string name="msg_say_vulnerable_checkers">Single checkers positions:&lt;br>whites: %1$s;&lt;br>blacks: %2$s.</string>
+    <string name="msg_nonexistent_vulnerable_checkers">nowhere</string>
+
+    <!-- Strings for two bots games: -->
+    <string name="sm_game_type_0">Two Bots</string>
+    <string name="tv_game_type_settings_title_0">Settings for games between two Bots</string>
+    <string name="msg_not_not_available_in_two_bots">You can just watch this game…</string>
+    <string name="mng_reset_score_body_gt_0">Are you sure you want to reset the score to 0 – 0 in games between two Bots?</string>
+
+    <!-- String in settings management: -->
+    <string name="sm_chb_accessible_checkers">Use green and red checkers to improve accessibility for visually impaired users</string>
+    <!-- Strings in visual settings: -->
+    <string name="sm_tv_choose_orientation">Choose the orientation in Main Menu and Settings</string>
+    <string name="sm_rb_orientation_0">Automatic detection</string>
+    <string name="sm_rb_orientation_1">Portrait forced</string>
+    <string name="sm_rb_orientation_2">Landscape forced</string>
+
+    <!-- Strings for what's new or other important information for last version: -->
+    <string name="whatsnew_title">What\'s New</string>
+    <string name="whatsnew_in_151_a">For privacy reasons, we no longer request the Google username, the user is now anonymous. However, there is a randomly generated number that makes a distinction in databases, this number is not associated with a specific user.</string>
+    <string name="whatsnew_in_151_b">Fixed compatibility with Android 10 and 11.</string>
+    <string name="whatsnew_in_151_c">You can choose accessible checkers for visually impaired users, green and red, to be used instead those white and black.\nTo chose them, go in Settings > Accessibility.</string>
+    <string name="whatsnew_in_151_d">For a full list of changes, read the Changelog found in Information section.</string>
+    <string name="chk_got_it">Don\'t show again!</string>
+
+</resources>

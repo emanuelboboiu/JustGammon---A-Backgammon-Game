@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="background_selected">#99ff99</color>
+    <color name="tvTextWhite">#ffffff</color>
+    <color name="tvTextBlack">#000000</color>
+    <color name="text_white_selected">#ff9999</color>
+    <color name="text_black_selected">#aa3333</color>
+
+</resources>

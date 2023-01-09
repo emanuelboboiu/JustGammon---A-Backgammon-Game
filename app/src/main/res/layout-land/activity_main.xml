@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3657"
+        android:orientation="horizontal" >
+
+        <!-- This layout is empty above the main menu. -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4871"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/llMiddleLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1317"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights" >
+
+            <!-- This layout is empty at the left of the main menu. -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMiddleLeftMenu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3089"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvMenuItem1"
+                style="@style/mainMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2395"
+                android:nextFocusUp="@+id/tvMenuItem6"
+                android:onClick="startGame"
+                android:text="@string/bt_start_game" />
+
+            <TextView
+                style="@style/mainMenuEmptyElements"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1407" />
+
+            <TextView
+                android:id="@+id/tvMenuItem2"
+                style="@style/mainMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2395"
+                android:onClick="goToGameMode"
+                android:text="@string/bt_game_mode" />
+
+            <TextView
+                style="@style/mainMenuEmptyElements"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1407" />
+
+            <TextView
+                android:id="@+id/tvMenuItem3"
+                style="@style/mainMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2395"
+                android:nextFocusDown="@+id/tvMenuItem4"
+                android:onClick="goToStatistics"
+                android:text="@string/bt_statistics" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMiddleCenter"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1188"
+            android:orientation="vertical" >
+
+            <!-- This layout is empty between left and right menu buttons. -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMiddleRightMenu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3089"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvMenuItem4"
+                style="@style/mainMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2395"
+                android:nextFocusUp="@+id/tvMenuItem3"
+                android:onClick="settings"
+                android:text="@string/bt_settings" />
+
+            <TextView
+                style="@style/mainMenuEmptyElements"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1407" />
+
+            <TextView
+                android:id="@+id/tvMenuItem5"
+                style="@style/mainMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2395"
+                android:onClick="upgradeToPremium"
+                android:text="@string/bt_premium" />
+
+            <TextView
+                style="@style/mainMenuEmptyElements"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.1407" />
+
+            <TextView
+                android:id="@+id/tvMenuItem6"
+                style="@style/mainMenuStyle"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2395"
+                android:nextFocusDown="@+id/tvMenuItem1"
+                android:onClick="showInformation"
+                android:text="@string/bt_information" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMiddleRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1317"
+            android:orientation="vertical" >
+
+            <!-- This layout is emtpy at the right. -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1472"
+        android:orientation="horizontal" >
+
+        <!-- This layout is empty below the main menu. -->
+    </LinearLayout>
+
+</LinearLayout>

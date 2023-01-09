@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llGameTypesSettings_1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/textInSettingsHeadingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_game_type_settings_title_1" />
+
+    <Button
+        android:id="@+id/btResetScoreGT1"
+        style="@style/style_buttons_in_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToGameMode"
+        android:text="@string/mng_bt_reset_score" />
+
+    <CheckBox
+        android:id="@+id/cbtMngChangeBoardPerspective"
+        style="@style/style_check_boxes_in_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClickedInManager"
+        android:text="@string/mng_cbt_turn_perspective_automatically" />
+
+    <CheckBox
+        android:id="@+id/cbtMngChangeBoardPerspectiveTV"
+        style="@style/style_check_boxes_in_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClickedInManager"
+        android:text="@string/mng_cbt_turn_perspective_automatically_android_tv" />
+
+    <TextView
+        style="@style/textInSettingsStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_game_types_note_message" />
+
+</LinearLayout>

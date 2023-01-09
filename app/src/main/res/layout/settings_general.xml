@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSecond"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cbtVibrationSetting"
+            style="@style/style_check_boxes_in_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/sm_enable_vibration" />
+
+        <CheckBox
+            android:id="@+id/cbtScreenAwakeSetting"
+            style="@style/style_check_boxes_in_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/sm_enable_screen_awake" />
+
+        <CheckBox
+            android:id="@+id/cbtClockSetting"
+            style="@style/style_check_boxes_in_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/sm_enable_clock_cuckoo" />
+
+        <CheckBox
+            android:id="@+id/cbtHistorySetting"
+            style="@style/style_check_boxes_in_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/sm_enable_save_history" />
+    </LinearLayout>
+
+</ScrollView>

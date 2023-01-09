@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">18dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_main">20sp</dimen>
+    <dimen name="text_size_main_menu">20sp</dimen>
+    <dimen name="text_heading_settings_size">22sp</dimen>
+    <dimen name="text_zone_size">22sp</dimen>
+    <dimen name="text_size_scores">20sp</dimen>
+    <dimen name="text_size_chronometer">20sp</dimen>
+    <dimen name="padding_for_menu_item">1dp</dimen>
+    <dimen name="between_image_buttons">2dp</dimen>
+    <dimen name="around_info_screens">2dp</dimen>
+
+</resources>

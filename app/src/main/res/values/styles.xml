@@ -1,0 +1,190 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- The base theme: -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="mainMenuStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:background">@drawable/main_menu_button</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/selector_text_black</item>
+        <item name="android:textSize">@dimen/text_size_main_menu</item>
+        <item name="android:paddingLeft">@dimen/padding_for_menu_item</item>
+        <item name="android:paddingRight">@dimen/padding_for_menu_item</item>
+    </style>
+
+    <style name="mainMenuEmptyElements" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:clickable">false</item>
+        <item name="android:screenReaderFocusable">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="controlInsteadAdStyle">
+        <item name="android:padding">0dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="textInGameStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:layout_marginTop">@dimen/around_info_screens</item>
+        <item name="android:layout_marginBottom">@dimen/around_info_screens</item>
+        <item name="android:layout_marginLeft">@dimen/around_info_screens</item>
+        <item name="android:layout_marginRight">@dimen/around_info_screens</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/selector_text_white</item>
+        <item name="android:textSize">@dimen/text_zone_size</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:nextFocusDown">@+id/ivB24</item>
+        <item name="android:nextFocusForward">@+id/ivB18</item>
+    </style>
+
+    <style name="chronometerStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:background">@drawable/timer</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/selector_text_white</item>
+        <item name="android:textSize">@dimen/text_size_chronometer</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="style_for_image_views_is_turn">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">false</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="textScoreStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textColor">@color/selector_text_white</item>
+        <item name="android:textSize">@dimen/text_size_scores</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="style_for_image_views">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:onClick">onPointClicked</item>
+    </style>
+
+    <style name="style_for_image_views_borders">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:onClick">onBorderClicked</item>
+    </style>
+
+    <style name="style_for_image_views_borders_extra">
+        <item name="android:clickable">false</item>
+        <item name="android:screenReaderFocusable">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="style_for_image_views_dice">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:background">@drawable/selector_background_selected</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="style_for_image_buttons_bottom" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:background">@drawable/selector_background_selected</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="about_dialog_style" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+    <style name="textInSettingsHeadingsStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:accessibilityHeading">true</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textSize">@dimen/text_heading_settings_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textInSettingsStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+    </style>
+
+    <style name="style_buttons_in_settings">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="style_check_boxes_in_settings">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+    </style>
+
+    <style name="style_radio_buttons_in_settings">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+    </style>
+
+    <style name="style_for_layouts_in_alerts">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+</resources>
